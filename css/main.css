@@ -99,7 +99,7 @@
 a.navbar-item.is-active,
 a.navbar-item:hover {
 	background-color: #f5f5f5;
-	color: #333
+	color: #231f20
 }
 
 .navbar-item {
@@ -213,7 +213,7 @@ a.navbar-item:hover {
 	}
 	.navbar-link.is-active,
 	a.navbar-item.is-active {
-		color: #333
+		color: #231f20
 	}
 	.navbar-link.is-active:not(:hover),
 	a.navbar-item.is-active:not(:hover) {
@@ -408,7 +408,7 @@ code {
 }
 
 body {
-	color: #333;
+	color: #231f20;
 	font-size: 1rem;
 	font-weight: 300;
 	line-height: 1.5
@@ -693,7 +693,7 @@ a.has-text-light:hover {
 }
 
 .has-text-primary {
-	color: #333!important
+	color: #231f20!important
 }
 
 a.has-text-primary:focus,
@@ -788,15 +788,6 @@ print {
 	}
 }
 
-.box {
-	background-color: #fff;
-	border-radius: 6px;
-	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, .5), 0 0 0 1px #bbb;
-	color: #333;
-	display: block;
-	padding: 1.25rem
-}
-
 a.box:focus,
 a.box:hover {
 	box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px #3273dc
@@ -870,7 +861,7 @@ a.box:active {
 .button.is-text {
 	background-color: transparent;
 	border-color: transparent;
-	color: #333;
+	color: #231f20;
 	text-decoration: underline
 }
 
@@ -895,18 +886,18 @@ a.box:active {
 .button.is-white {
 	background-color: #fff;
 	border-color: transparent;
-	color: #333
+	color: #231f20
 }
 
 .button.is-white:hover {
 	background-color: #f9f9f9;
 	border-color: transparent;
-	color: #333
+	color: #231f20
 }
 
 .button.is-white:focus {
 	border-color: transparent;
-	color: #333
+	color: #231f20
 }
 
 .button.is-white:focus:not(:active) {
@@ -917,7 +908,7 @@ a.box:active {
 .button.is-white:active {
 	background-color: #f2f2f2;
 	border-color: transparent;
-	color: #333
+	color: #231f20
 }
 
 .button.is-white[disabled] {
@@ -927,7 +918,7 @@ a.box:active {
 }
 
 .button.is-white.is-loading::after {
-	border-color: transparent transparent #333 #333!important
+	border-color: transparent transparent #231f20 #231f20!important
 }
 
 .button.is-white.is-outlined {
@@ -940,7 +931,7 @@ a.box:active {
 .button.is-white.is-outlined:hover {
 	background-color: #fff;
 	border-color: #fff;
-	color: #333
+	color: #231f20
 }
 
 .button.is-white.is-outlined.is-loading::after {
@@ -957,18 +948,18 @@ a.box:active {
 .button.is-light {
 	background-color: #f5f5f5;
 	border-color: transparent;
-	color: #333
+	color: #231f20
 }
 
 .button.is-light:hover {
 	background-color: #eee;
 	border-color: transparent;
-	color: #333
+	color: #231f20
 }
 
 .button.is-light:focus {
 	border-color: transparent;
-	color: #333
+	color: #231f20
 }
 
 .button.is-light:focus:not(:active) {
@@ -979,7 +970,7 @@ a.box:active {
 .button.is-light:active {
 	background-color: #e8e8e8;
 	border-color: transparent;
-	color: #333
+	color: #231f20
 }
 
 .button.is-light[disabled] {
@@ -989,7 +980,7 @@ a.box:active {
 }
 
 .button.is-light.is-loading::after {
-	border-color: transparent transparent #333 #333!important
+	border-color: transparent transparent #231f20 #231f20!important
 }
 
 .button.is-light.is-outlined {
@@ -1002,7 +993,7 @@ a.box:active {
 .button.is-light.is-outlined:hover {
 	background-color: #f5f5f5;
 	border-color: #f5f5f5;
-	color: #333
+	color: #231f20
 }
 
 .button.is-light.is-outlined.is-loading::after {
@@ -1017,7 +1008,7 @@ a.box:active {
 }
 
 .button.is-primary {
-	background-color: #333;
+	background-color: #231f20;
 	border-color: transparent;
 	color: #fff
 }
@@ -1045,7 +1036,7 @@ a.box:active {
 }
 
 .button.is-primary[disabled] {
-	background-color: #333;
+	background-color: #231f20;
 	border-color: transparent;
 	box-shadow: none
 }
@@ -1056,26 +1047,26 @@ a.box:active {
 
 .button.is-primary.is-outlined {
 	background-color: transparent;
-	border-color: #333;
-	color: #333
+	border-color: #231f20;
+	color: #231f20
 }
 
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined:hover {
-	background-color: #333;
-	border-color: #333;
+	background-color: #231f20;
+	border-color: #231f20;
 	color: #fff
 }
 
 .button.is-primary.is-outlined.is-loading::after {
-	border-color: transparent transparent #333 #333!important
+	border-color: transparent transparent #231f20 #231f20!important
 }
 
 .button.is-primary.is-outlined[disabled] {
 	background-color: transparent;
-	border-color: #333;
+	border-color: #231f20;
 	box-shadow: none;
-	color: #333
+	color: #231f20
 }
 
 .button.is-link {
@@ -1614,7 +1605,7 @@ a.box:active {
 }
 
 .list-item:not(a) {
-	color: #333
+	color: #231f20
 }
 
 .list-item:first-child {
@@ -1659,7 +1650,7 @@ a.list-item {
 
 .menu-list a {
 	border-radius: 2px;
-	color: #333;
+	color: #231f20;
 	display: block;
 	padding: .5em .75em
 }
@@ -2179,7 +2170,7 @@ print {
 
 .hero.is-white {
 	background-color: #fff;
-	color: #333
+	color: #231f20
 }
 
 .hero.is-white a:not(.button):not(.dropdown-item):not(.tag),
@@ -2188,7 +2179,7 @@ print {
 }
 
 .hero.is-white .title {
-	color: #333
+	color: #231f20
 }
 
 .hero.is-white .subtitle {
@@ -2197,7 +2188,7 @@ print {
 
 .hero.is-white .subtitle a:not(.button),
 .hero.is-white .subtitle strong {
-	color: #333
+	color: #231f20
 }
 
 @media screen and (max-width:1087px) {
@@ -2216,12 +2207,12 @@ print {
 .hero.is-white a.navbar-item.is-active,
 .hero.is-white a.navbar-item:hover {
 	background-color: #f2f2f2;
-	color: #333
+	color: #231f20
 }
 
 .hero.is-light {
 	background-color: #f5f5f5;
-	color: #333
+	color: #231f20
 }
 
 .hero.is-light a:not(.button):not(.dropdown-item):not(.tag),
@@ -2230,7 +2221,7 @@ print {
 }
 
 .hero.is-light .title {
-	color: #333
+	color: #231f20
 }
 
 .hero.is-light .subtitle {
@@ -2239,7 +2230,7 @@ print {
 
 .hero.is-light .subtitle a:not(.button),
 .hero.is-light .subtitle strong {
-	color: #333
+	color: #231f20
 }
 
 @media screen and (max-width:1087px) {
@@ -2258,11 +2249,11 @@ print {
 .hero.is-light a.navbar-item.is-active,
 .hero.is-light a.navbar-item:hover {
 	background-color: #e8e8e8;
-	color: #333
+	color: #231f20
 }
 
 .hero.is-primary {
-	background-color: #333;
+	background-color: #231f20;
 	color: #fff
 }
 
@@ -2286,7 +2277,7 @@ print {
 
 @media screen and (max-width:1087px) {
 	.hero.is-primary .navbar-menu {
-		background-color: #333
+		background-color: #231f20
 	}
 }
 
@@ -2432,7 +2423,7 @@ h6 {
 .content h6 {
 	font-family: eurostile, sans-serif;
 	font-weight: 800;
-	color: #333
+	color: #231f20
 }
 
 .content p {
@@ -2451,7 +2442,7 @@ h6 {
 }
 
 .title {
-	color: #333;
+	color: #231f20;
 	font-weight: 800
 }
 
@@ -2469,7 +2460,7 @@ a {
 }
 
 a {
-	color: #333
+	color: #231f20
 }
 
 a:hover {
@@ -2526,20 +2517,20 @@ a:hover {
 .navbar .navbar-menu .navbar-item {
 	font-size: 18px;
 	font-weight: 300;
-	color: #333
+	color: #231f20
 }
 
 .navbar .navbar-menu .navbar-item:hover {
-	color: #333;
+	color: #231f20;
 	background-color: transparent
 }
 
 .navbar .navbar-menu .navbar-item .navbar-link {
-	color: #333
+	color: #231f20
 }
 
 .navbar .navbar-menu .navbar-item .navbar-link:hover {
-	color: #333
+	color: #231f20
 }
 
 .navbar .navbar-menu .navbar-burger span {
@@ -2564,7 +2555,7 @@ a:hover {
 
 @media screen and (min-width:1024px) {
 	.navbar-link::after {
-		border: 2px solid #333;
+		border: 2px solid #231f20;
 		border-right: 0;
 		border-top: 0;
 		content: " ";
@@ -2594,7 +2585,7 @@ a:hover {
 }
 
 .hero.is-white .title {
-	color: #333
+	color: #231f20
 }
 
 .hero-foot {
@@ -2606,7 +2597,7 @@ a:hover {
 }
 
 .section.is-primary {
-	background-color: #333;
+	background-color: #231f20;
 	color: #fff
 }
 
@@ -2716,7 +2707,7 @@ a:hover {
 }
 
 .projects .project-grid .overlay {
-	background-color: #333
+	background-color: #231f20
 }
 
 .projects .project-grid figure:hover img {
@@ -2764,9 +2755,39 @@ footer .made-by-bulma {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #333
+	background-color: #231f20
 }
 
 .fix {
 	width: 3000px
+}
+@media screen and (max-width:768px) {
+.column.skillL{
+	border-left: 5px solid #231f20;
+	border-top: 5px solid #231f20;
+	border-right: 5px solid #231f20;
+}
+.column.skillM{
+	border: 5px solid #231f20;
+}
+.column.skillR{
+	border-left: 5px solid #231f20;
+	border-right: 5px solid #231f20;
+	border-bottom: 5px solid #231f20
+}
+}
+@media screen and (min-width:769px){
+.column.skillL{
+	border-left: 5px solid #231f20;
+	border-top: 5px solid #231f20;
+	border-bottom: 5px solid #231f20
+}
+.column.skillM{
+	border: 5px solid #231f20;
+}
+.column.skillR{
+	border-right: 5px solid #231f20;
+	border-bottom: 5px solid #231f20;
+	border-top: 5px solid #231f20;
+}
 }

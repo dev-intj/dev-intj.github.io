@@ -98,7 +98,7 @@
   margin: 0 0 2px 0;
   width: 100%;
   height: 2px;
-  background: #000000;
+  background: #231f20;
 }
 .loading .finger-item i {
   position: absolute;
@@ -112,7 +112,7 @@
   -moz-background-clip: padding;
   border-radius: 10px 10px 7px 7px;
   background-clip: padding-box;
-  background: #000000;
+  background: #231f20;
 }
 .loading .last-finger {
   position: relative;
