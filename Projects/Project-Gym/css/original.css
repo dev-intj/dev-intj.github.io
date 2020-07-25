@@ -163,3 +163,8 @@ h6 {
     color: #000000;
   }
 }
+.gym{
+	border-radius: 25px;
+	background: rgb(255,255,255);
+background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(0,92,130,1) 50%, rgba(0,212,255,1) 100%)
+}
