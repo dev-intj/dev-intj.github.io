@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'PFDasGroteskPro';
+  src: url('fonts/PFDasGroteskPro.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PFDasGroteskPro.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PFDasGroteskPro.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PFDasGroteskPro.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PFDasGroteskPro.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PFDasGroteskPro.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PFSquareSansProMedium';
+  src: url('fonts/PFSquareSansProMedium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PFSquareSansProMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PFSquareSansProMedium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PFSquareSansProMedium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PFSquareSansProMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PFSquareSansProMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PFDasGroteskProBold';
+  src: url('fonts/PFDasGroteskProBold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PFDasGroteskProBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PFDasGroteskProBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PFDasGroteskProBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PFDasGroteskProBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PFDasGroteskProBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PFSquareSansProBold';
+  src: url('fonts/PFSquareSansProBold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PFSquareSansProBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PFSquareSansProBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PFSquareSansProBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PFSquareSansProBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PFSquareSansProBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PFSquareSansProLight';
+  src: url('fonts/PFSquareSansProLight.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PFSquareSansProLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PFSquareSansProLight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PFSquareSansProLight.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PFSquareSansProLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PFSquareSansProLight.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PFSquareSansProRegular';
+  src: url('fonts/PFSquareSansProRegular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PFSquareSansProRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PFSquareSansProRegular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PFSquareSansProRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PFSquareSansProRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PFSquareSansProRegular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'PFSquareSansProThin';
+  src: url('fonts/PFSquareSansProThin.eot'); /* IE9 Compat Modes */
+  src: url('fonts/PFSquareSansProThin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/PFSquareSansProThin.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/PFSquareSansProThin.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/PFSquareSansProThin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/PFSquareSansProThin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+.category{
+	font-family: 'PFSquareSansProBold', Fallback, sans-serif;
+	font-size: 24px;
+}
+.footer{
+	font-family: 'PFSquareSansProRegular', Fallback, sans-serif;
+	font-size: 10px;
+}
+.discount{
+	font-family: 'PFSquareSansProBold', Fallback, sans-serif;
+	font-size: 23px;
+}
+.title{
+	font-family: 'PFSquareSansProBold', Fallback, sans-serif;
+	font-size: 24px;
+}
+.subtitle{
+	font-family: 'PFSquareSansProMedium', Fallback, sans-serif;
+	font-size: 23px;
+}
+.gradient-text {
+	font-family: 'PFSquareSansProBold', Fallback, sans-serif;
+	font-size: 72px;
+  /* Fallback: Set a background color. */
+  background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #FAFAFA;
+        font: 12pt "Tahoma";
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .page {
+        width: 21cm;
+        min-height: 29.7cm;
+        padding: 2cm;
+        margin: 1cm auto;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    @media print {
+        .page {
+            margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+        }
+    }
