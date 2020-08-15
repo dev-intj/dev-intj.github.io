@@ -1,0 +1,46 @@
+*{
+margin:0%;
+}
+html,body{
+	height:100%;
+	
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin-bottom:20px;
+}
+
+nav{
+	position:fixed;
+	width:100%;
+	height:30px;
+	background-color: rgba(0,0,0,.5);
+	z-index:99;
+	text-align:center;
+}
+
+.sect{
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.subsection{
+	height:50%;
+	background-color:aqua;
+}
+
+.sectOne{
+	
+	background-image:url("cardio.jpg");
+}
+
+.sectTwo{
+	background-image:url("abs.jpg");
+	
+}
+
+.sectThree{
+	
+	background-image:url("muscle.jpg");
+}
