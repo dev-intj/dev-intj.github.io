@@ -9,7 +9,13 @@
       <link href="css/finger.css" rel="stylesheet">
       <link href="css/main.css" rel="stylesheet">
       <script src="js/jquery-3.5.1.min.js"></script>
-      <script src="js/main.js"></script>
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
    </head>
    <body>
       <div class="container">
@@ -455,13 +461,14 @@
       <div class="is-form-page">
          <section class="is-white">
             <div class="container">
-               <form id="form" accept-charset="UTF-8" action="" method="POST">
+              <!--validation todo-->
+               <form id="contactform" accept-charset="UTF-8" action="" method="POST">
                   <div class="columns is-centered">
                      <div class="column is-half">
                         <div class="field">
                            <label class="label">Name</label>
                            <div class="control is-expanded">
-                              <input class="input is-large is-active" name="name" type="text" required="">
+                              <input class="input is-large is-active" id="name" name="name" type="text" required="">
                            </div>
                         </div>
                      </div>
@@ -469,7 +476,7 @@
                         <div class="field">
                            <label class="label">Email</label>
                            <div class="control is-expanded">
-                              <input class="input is-large is-active" name="email" type="email" required="">
+                              <input class="input is-large is-active" id="email" name="email" type="email" required="">
                            </div>
                         </div>
                      </div>
@@ -479,7 +486,7 @@
                         <div class="field">
                            <label class="label">Additional details</label>
                            <div class="control">
-                              <textarea class="textarea is-large is-active" name="details" rows="5" required=""></textarea>
+                              <textarea class="textarea is-large is-active" id="details" name="details" rows="5" required=""></textarea>
                            </div>
                         </div>
                      </div>
@@ -488,7 +495,7 @@
                      <div class="column is-one-third">
                         <div class="field">
                            <div class="control">
-                              <button class="button is-primary is-outlined is-medium is-fullwidth is-rounded">Submit</button>
+                              <button class="button is-primary is-outlined is-medium is-fullwidth is-rounded" type="submit">Submit</button>
                            </div>
                         </div>
                      </div>
@@ -514,5 +521,6 @@
             </div>
          </div>
       </section>
+      <script src="js/main.js"></script>
    </body>
 </html>
