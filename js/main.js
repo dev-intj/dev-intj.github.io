@@ -48,6 +48,7 @@ var messagesRef = firebase.database().ref('messages');
 //Listen for form Submit
 // TODO retrieve if from firebase
 document.getElementById('contactform').addEventListener('submit',submitForm);
+
 function submitForm(e){
 
   e.preventDefault();
