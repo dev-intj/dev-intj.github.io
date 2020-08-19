@@ -58,11 +58,12 @@ function submitForm(e){
 
   //save message
   saveMessage(name,email,details);
-
+  console.log('Your message has been sent.');
   //show response
-  $('alert').removeClass('is-hidden');
+  $('#alert').removeClass('is-hidden');
+
   setTimeout(function(){
-  $('alert').addClass('is-hidden');
+  $('#alert').addClass('is-hidden');
   },3000);
 
 }
