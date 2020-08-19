@@ -46,8 +46,6 @@ firebase.analytics();
 var messagesRef = firebase.database().ref('messages');
 
 //Listen for form Submit
-// TODO retrieve if from firebase
-document.getElementById('contactform').addEventListener('submit',submitForm);
 
 function submitForm(e){
 
@@ -73,6 +71,7 @@ function submitForm(e){
   //clear form
   document.getElementById('contactform').reset();
 }
+document.getElementById('contactform').addEventListener('submit',submitForm);
 
 
 // FUNCTIONS
