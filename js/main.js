@@ -46,6 +46,7 @@ firebase.analytics();
 var messagesRef = firebase.database().ref('messages');
 
 //Listen for form Submit
+// TODO retrieve if from firebase
 document.getElementById('contactform').addEventListener('submit',submitForm);
 function submitForm(e){
 
@@ -58,14 +59,18 @@ function submitForm(e){
 
   //save message
   saveMessage(name,email,details);
-  console.log('Your message has been sent.');
+
+
   //show response
+  console.log('Your message has been sent.');
   $('#alert').removeClass('is-hidden');
 
   setTimeout(function(){
   $('#alert').addClass('is-hidden');
   },3000);
 
+  //clear form
+  document.getElementById('contactform').reset();
 }
 
 
