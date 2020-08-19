@@ -59,6 +59,12 @@ function submitForm(e){
   //save message
   saveMessage(name,email,details);
 
+  //show response
+  $('alert').removeClass('is-hidden');
+  setTimeout(function(){
+  $('alert').addClass('is-hidden');
+  },3000);
+
 }
 
 
