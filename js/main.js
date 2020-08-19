@@ -41,7 +41,6 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
-
 // Reference messages collection
 var messagesRef = firebase.database().ref('messages');
 
