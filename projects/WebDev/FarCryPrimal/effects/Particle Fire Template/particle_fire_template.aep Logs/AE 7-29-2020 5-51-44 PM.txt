@@ -1,8 +1,0 @@
-  7/29/2020 5:51:44 PM: Starting composition “RENDER COMP”.
-
-  Output To: C:\Users\demat\Desktop\RENDER COMP\RENDER COMP_[#####].png    7/29/2020 5:58:35 PM: Finished composition “RENDER COMP”.
-
-
-  Total Time Elapsed: 6 Min, 51 Sec
-Log closed on 7/29/2020 at 5:58:35 PM
-
