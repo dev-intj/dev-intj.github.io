@@ -2,8 +2,10 @@
 	height: 148px;
 	width: 45px;
 }
-
-
+html,
+body{
+	background-color: #E8E8E8;
+}
 /* Section */
 
 .section {
@@ -498,133 +500,24 @@ footer .made-by-bulma {
 /* Navbar */
 
 .navbar {
-	padding: 15px;
+	padding: 50px 50px 0px 50px;
+}
+.navbar-item{
+	padding:15px;
+}
+.navbar-start{
+	
 }
 
-.navbar.is-fixed-bottom,
-.navbar.is-fixed-top {
-	left: 0;
-	position: fixed;
-	right: 0;
-	z-index: 30;
-}
-
-.navbar.is-fixed-top {
-	top: 0;
-}
-
-@media screen and (min-width: 1024px) {
-	.navbar.is-fixed-top-desktop {
-		top: 0;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	.navbar.is-fixed-bottom-desktop,
-	.navbar.is-fixed-top-desktop {
-		left: 0;
-		position: fixed;
-		right: 0;
-		z-index: 30;
-	}
-}
-
-@media screen and (max-width: 1023px) {
-	.navbar.is-fixed-bottom-touch,
-	.navbar.is-fixed-top-touch {
-		left: 0;
-		position: fixed;
-		right: 0;
-		z-index: 30;
-	}
-	.navbar.is-fixed-top-touch {
-		top: 0;
-	}
-	.navbar.is-fixed-top .navbar-menu,
-	.navbar.is-fixed-top-touch .navbar-menu {
-		-webkit-overflow-scrolling: touch;
-		max-height: calc(100vh - 3.25rem);
-		overflow: auto;
-	}
-}
-
-.section.widgetnumber {
+/* Widget */
+.numberwidget {
+		justify-content: center;
+		min-width:400px;
+	background-color:white;
+	border-radius: 50px;
+	padding:15px;
 	margin-top: -14rem;
 	padding-bottom: 1rem;
-}
-
-.section.widgetnumber .box {
-	padding: 0;
-}
-
-.section.widgetnumber .box .content .columns {
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.section.widgetnumber .box .content .columns .column {
-	padding: 50px 30px;
-	border-bottom: 1px solid #E6ECF8;
-	border-right: 0px solid #E6ECF8;
-}
-
-@media screen and (min-width: 769px) {
-	.section.widgetnumber .box .content .columns .column {
-		border-bottom: 0px solid #E6ECF8;
-		border-right: 1px solid #E6ECF8;
-		padding: 60px 35px;
-	}
-}
-
-@media screen and (min-width: 1216px) {
-	.section.widgetnumber .box .content .columns .column {
-		padding: 70px 45px;
-	}
-}
-
-.section.widgetnumber .box .content .columns .column:last-child {
-	border-right: none;
-	border-bottom: none;
-}
-
-.section.widgetnumber .box .content .columns .column figure.image {
-	margin: 0 auto 2em;
-}
-
-.section.widgetnumber .box .content .columns .column figure.image img.is-skill-icon {
-	height: 48px;
-	width: auto;
-}
-
-@media screen and (min-width: 769px) {
-	.section.widgetnumber .box .content .columns .column p {
-		font-size: 18px;
-	}
-}
-
-.section.widgetnumber .box .content .columns .column p.list-title {
-	margin-top: 50px;
-	margin-bottom: 8px;
-}
-
-.section.widgetnumber .box .content .columns .column ul {
-	list-style: none;
-	margin-left: 0;
-	margin-top: 0;
-}
-
-@media screen and (min-width: 769px) {
-	.section.widgetnumber .box .content .columns .column ul li {
-		font-size: 18px;
-	}
-}
-
-.section.widgetnumber .box .content .columns .column .button.is-primary.is-outlined {
-	padding: 1.1em;
-	font-weight: 400;
-	border-width: 2px;
-	margin-top: 2rem;
-	font-size: 18px;
 }
 
 /* hero is dark */
