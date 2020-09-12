@@ -6240,3 +6240,13 @@ print {
 .is-active {
 	display: initial
 }
+
+.section.is-halfblackr{
+	background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffffff 50%,
+    #231f20 50%,
+    #231f20 100%
+  );
+}
