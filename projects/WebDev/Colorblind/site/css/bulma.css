@@ -5913,7 +5913,12 @@ button.dropdown-item.is-active {
   box-shadow: 0 2px 0 0 whitesmoke;
 }
 
-
+.navbar.is-fixed-bottom, .navbar.is-fixed-top {
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 30;
+}
 
 .navbar.is-fixed-bottom {
   bottom: 0;
@@ -5923,6 +5928,9 @@ button.dropdown-item.is-active {
   box-shadow: 0 -2px 0 0 whitesmoke;
 }
 
+.navbar.is-fixed-top {
+  top: 0;
+}
 
 html.has-navbar-fixed-top,
 body.has-navbar-fixed-top {
@@ -6129,15 +6137,26 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar-menu.is-active {
     display: block;
   }
-
+  .navbar.is-fixed-bottom-touch, .navbar.is-fixed-top-touch {
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 30;
+  }
   .navbar.is-fixed-bottom-touch {
     bottom: 0;
   }
   .navbar.is-fixed-bottom-touch.has-shadow {
     box-shadow: 0 -2px 3px rgba(10, 10, 10, 0.1);
   }
-
-
+  .navbar.is-fixed-top-touch {
+    top: 0;
+  }
+  .navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
+    -webkit-overflow-scrolling: touch;
+    max-height: calc(100vh - 3.25rem);
+    overflow: auto;
+  }
   html.has-navbar-fixed-top-touch,
   body.has-navbar-fixed-top-touch {
     padding-top: 3.25rem;
@@ -6285,14 +6304,21 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .container > .navbar .navbar-menu {
     margin-right: -0.75rem;
   }
-
+  .navbar.is-fixed-bottom-desktop, .navbar.is-fixed-top-desktop {
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 30;
+  }
   .navbar.is-fixed-bottom-desktop {
     bottom: 0;
   }
   .navbar.is-fixed-bottom-desktop.has-shadow {
     box-shadow: 0 -2px 3px rgba(10, 10, 10, 0.1);
   }
-
+  .navbar.is-fixed-top-desktop {
+    top: 0;
+  }
   html.has-navbar-fixed-top-desktop,
   body.has-navbar-fixed-top-desktop {
     padding-top: 3.25rem;

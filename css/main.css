@@ -3417,18 +3417,6 @@ print {
 	padding: 3rem 1.5rem
 }
 
-.section {
-	padding: 3rem 1.5rem
-}
-
-@media screen and (min-width:1024px) {
-	.section.is-medium {
-		padding: 9rem 1.5rem
-	}
-	.section.is-large {
-		padding: 18rem 1.5rem
-	}
-}
 
 .navbar {
 	background-color: #fff;
@@ -5377,15 +5365,6 @@ print {
 	}
 }
 
-.section {
-	padding: 3rem 1.5rem
-}
-
-@media screen and (min-width:1088px) {
-	.section.is-medium {
-		padding: 9rem 1.5rem
-	}
-}
 
 html {
 	overflow-y: scroll;
@@ -5579,22 +5558,7 @@ a:hover {
 	padding: 0 1.5rem
 }
 
-.section {
-	padding: 5rem 1.5rem
-}
 
-.section.is-primary {
-	background-color: #231f20;
-	color: #fff
-}
-
-.section.is-primary .title {
-	color: #fff
-}
-
-.section.is-primary .subtitle {
-	color: #fff
-}
 
 .projects .button.is-primary.is-outlined.is-medium {
 	padding: 1.25em 2em;
@@ -6229,6 +6193,24 @@ print {
 	padding: 5rem 3rem
 }
 
+
+.section {
+	padding: 5rem 1.5rem
+}
+
+.section.is-primary {
+	background-color: #231f20;
+	color: #fff
+}
+
+.section.is-primary .title {
+	color: #fff
+}
+
+.section.is-primary .subtitle {
+	color: #fff
+}
+
 .section.is-halfheight {
 	align-items: center;
 	display: flex;
@@ -6237,9 +6219,7 @@ print {
 	min-height: 50vh
 }
 
-.is-active {
-	display: initial
-}
+
 
 .section.is-halfblackr{
 	background: linear-gradient(
@@ -6249,4 +6229,31 @@ print {
     #231f20 50%,
     #231f20 100%
   );
+}
+
+.section.is-pwhite{
+	background-color: #E4E4E4;
+	color: #000;
+}
+.hero.is-pwhite{
+	background-color: #E4E4E4;
+	color: #000;
+}
+
+@media screen and (min-width:1088px) {
+	.section.is-medium {
+		padding: 9rem 1.5rem
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.section.is-medium {
+		padding: 9rem 1.5rem
+	}
+	.section.is-large {
+		padding: 18rem 1.5rem
+	}
+}
+.is-active {
+	display: initial
 }
