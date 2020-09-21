@@ -54,9 +54,11 @@ function submitForm(e){
   var name = getInputVal('name');
   var email = getInputVal('email');
   var details = getInputVal('details');
+  var type = getInputVal('type');
+  var position = getInputVal('position');
 
   //save message
-  saveMessage(name,email,details);
+  saveMessage(name,email,details,type,position);
 
 
   //show response
@@ -86,6 +88,8 @@ function saveMessage(name,email,details){
   newMesssageRef.set({
     name: name,
     email: email,
-    details: details
+    details: details,
+    type: type,
+    position:position
   });
 }
