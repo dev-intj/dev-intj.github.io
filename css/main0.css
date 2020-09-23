@@ -12675,7 +12675,7 @@ hr {
 }
 
 .projects .project-grid .overlay {
-	background-color: #141c3a;
+	background-color: #231f20;
 }
 
 .projects .project-grid figure:hover img {
@@ -13755,63 +13755,26 @@ input[name="carousel"] {
 .is-active {
 	display: initial
 }
+/*! is nav button */
 
 .button.is-nav {
-	background-color: transparent;
-	border-color: transparent;
-	color: #231f20
+	border-width: 0px 0px 4px 0px;
+	border-color: white;
 }
 
 .button.is-nav:focus,
 .button.is-nav:hover {
-	background-color: #fff;
+	border-width: 0px 0px 4px 0px;
 	border-color: #231f20;
-	color: #333
 }
 
 .button.is-nav:focus:not(:active) {
 	box-shadow: 0 0 0 .125em rgba(117, 16, 247, .25)
 }
 
-.button.is-nav.is-active,
-.button.is-nav:active {
-	background-color: #fff;
-	border-color: #231f20;
-	color: #333
-}
-
-.button.is-nav[disabled] {
-	background-color: #231f20;
-	border-color: transparent;
-	box-shadow: none
-}
-
-.button.is-nav.is-loading::after {
-	border-color: transparent transparent #fff #fff!important
-}
-
-.button.is-nav.is-outlined {
-	background-color: #333;
-	border-color: silver;
-	color: #fff
-}
-
-.button.is-nav.is-outlined:focus,
-.button.is-nav.is-outlined:hover {
-	background-color: #fff;
-	border-color: #231f20;
-	color: #333
-}
-
-.button.is-nav.is-outlined.is-loading::after {
-	border-color: transparent transparent #231f20 #231f20!important
-}
-
-.button.is-nav.is-outlined[disabled] {
-	background-color: transparent;
-	border-color: #231f20;
-	box-shadow: none;
-	color: #231f20
+a:nth-child(1):hover ~ .is-nav{
+	border-width: 0px 0px 4px 0px;
+	border-color: white;
 }
 
 .button.is-primary {
@@ -13874,4 +13837,7 @@ input[name="carousel"] {
 	border-color: #231f20;
 	box-shadow: none;
 	color: #231f20
+}
+.select.is-dark:after {
+  border-color: #231f20 !important;
 }
