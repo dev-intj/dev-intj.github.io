@@ -1,3 +1,7 @@
 720x436
 96 dpi
 24 bit depth
+old ones
+790 x 450
+bit depth 8???
+dpi??
