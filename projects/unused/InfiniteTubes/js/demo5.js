@@ -176,6 +176,7 @@ Tunnel.prototype.updateCurve = function(delta) {
     h = (Math.floor(Math.abs(noise.simplex3(p.x * 2, p.y * 4, p.z * 2 + delta)) * 80 * 100) * 0.01 + 180) / 360;
     rgb = hslToRgb(h, 0.7,0.6)
     color = new THREE.Color(rgb[0], rgb[1], rgb[2]);
+    color = new THREE.Color(rgb[0], rgb[1], rgb[2]);
     f.color = color;
   }
   this.tubeGeometry.elementsNeedUpdate = true;
