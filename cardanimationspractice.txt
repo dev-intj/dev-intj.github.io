@@ -1,0 +1,32 @@
+<article class="portfoflio-project"><div>
+          <div class="portfoflio-project-thumbnail">
+            <img src="/images/projects/card-animations-practice.png" alt="thumbnail image">
+            <div class="portfoflio-project-thumbnail-overlay">
+              <div class="portfoflio-project-meta">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <a href="projects/UIUX/Cards" class="pf-p-full-size-link"></a>
+              <a href="projects/UIUX/Cards" target="_blank" class="pf-p-project-link">
+                <img src="/images/projects/link.svg" alt="Link to project">
+              </a>
+                <span class="pf-p-view-info">View
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </span>
+              </div>
+            </div>
+            <h3 class="portfoflio-project-title">
+              <a href="post">Card Hover Animations - Adobe XD & CSS</a>
+              <a href="https://github.com/Marvelosian/marvelosian.github.io/tree/master/en-us/projects/cards"><i class="fas fa-folder-open"></i></a>
+            </h3>
+            <div class="pf-p-portfoflio-additionals">
+              <span class="pf-p-portfoflio-additional active">
+                <i class="fas fa-edit"></i> Web Design | Practice
+              </span>
+              <!---<i class="fas fa-folder-open"></i>
+              <i class="fas fa-check-square"></i>
+              <i class="fas fa-circle-notch"></i>
+              <i class="fas fa-edit"></i>--->
+            </div></div>
+          </article>
