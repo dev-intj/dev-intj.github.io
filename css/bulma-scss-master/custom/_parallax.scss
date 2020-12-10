@@ -1,0 +1,88 @@
+
+/*=== z index ===*/
+:root{
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*===== HOME =====*/
+.home{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    img{
+        width: 100%;
+        height:100%;
+    }
+    &__parallax{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        &-img1{
+            //background-image: url('/images/parallax-section/clouds.svg');
+            z-index: var(--z-normal);
+        }
+        &-img2{
+            //background-image: url('/images/parallax-section/img2.png');
+            z-index: var(--z-tooltip);
+        }
+        &-img3{
+            //background-image: url('/images/parallax-section/img3.png');
+            z-index: var(--z-fixed);
+        }
+        &-img4{
+            
+            //background-image: url('/images/parallax-section/img4.png');
+            z-index: var(--z-fixed);
+        }
+    }
+
+    &__title,&__subtitle{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: var(--white-color);
+    }
+    &__title{
+        top: 32%;
+        z-index: var(--z-normal);
+    }
+    &__subtitle{
+        top: 44%;
+        z-index: var(--z-tooltip);
+    }
+
+}
+
+/*===== MEDIA QUERIES =====*/
+@media screen and(min-width: 760px){
+    .home{
+        &__title{
+            top: 27%;
+        }
+        &__subtitle{
+            top: 50%;
+        }
+    }
+}
+
+
+.hero{
+    padding:0px;
+}
+.hero-body{
+    padding:0px;
+}

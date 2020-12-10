@@ -1,28 +1,13 @@
-var ready = () => {
+$("#pre-loader").load("/preloader/preloader.html");
 
-    $('.tab').on('click', (e) => {
-        var tabName = (e.currentTarget.attributes[0].nodeValue);
-        removeActive();
-      hideAll();
-      console.log(tabName)
-      $('#' + tabName).addClass('is-active');
-      $('#' + tabName + '-content').removeClass('is-hidden');
-    });
+//menu button
+$('#navtoggle').click(function() {
+  $('body').toggleClass("nav-active");
+  $('#nav-menu').toggleClass("is-menu-active");
+});
 
-    var removeActive = () => {
-      $('li').each(function() {
-        $(this).removeClass('is-active');
-      });
-    }
 
-    var hideAll = () => {
-      $('#webdesign-webdevelopment-tab-content').addClass('is-hidden');
-      $('#graphicdesign-tab-content').addClass('is-hidden');
-      $('#gamedevelopment-tab-content').addClass('is-hidden');
-      $('#daily-tab-content').addClass('is-hidden');
-    }
 
-}
-
-$(document).ready(ready);
-$(document).on("page:load", ready);
+  $(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+  });

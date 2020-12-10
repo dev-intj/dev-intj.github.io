@@ -11,40 +11,20 @@
       <meta name="description" content="A Greek Web Designer with lots of skills." />
       <link rel="manifest" href="site.webmanifest" />
       <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-      <!-- Style -->
-      <link href="/css/main.css" rel="stylesheet">
+       <!-- Main CSS -->
+      <link href="/css/bulma-scss-master/bulma.css" rel="stylesheet">
       <script src="/js/jquery-3.5.1.min.js"></script>
       <!-- The core Firebase JS SDK is always required and must be listed first -->
-      <script src="https://kit.fontawesome.com/5bab8b5572.js" crossorigin="anonymous"></script>
-      <script src="https://usebasin.com/f/363b98eca5af/ahoy.js" async="" defer=""></script>
-   </head>
-   <body>
-      <nav class="navbar" role="navigation" aria-label="main navigation" id="navvar">
-         <div class="container">
-            <div class="navbar-brand">
-               <a class="navbar-item" href="https://marvelosian.github.io">
-               <img src="/images/logo.png" width="112" height="28" alt="logo">
-               </a>
-               <label for="toggler" class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
-               <span aria-hidden="true"></span>
-               <span aria-hidden="true"></span>
-               <span aria-hidden="true"></span>
-               </label>
-            </div>
-            <div id="navbarBasicExample" class="navbar-menu">
-               <div class="navbar-end">
-                  <div class="navbar-item">
-                     <div class="buttons">
-                        <a class="button is-white is-medium tooltip is-tooltip-bottom" data-tooltip="Close" href="./">
-                        <span class="icon is-small">
-                        <i class="fas fa-times"></i></span>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+      </head>
+   <body class="nav-active">
+      <a id="navtoggle" href="/en-us/">
+         <div class="menu-icon b">
+           <span class="menu-icon__line menu-icon__line-left"></span>
+           <span class="menu-icon__line"></span>
+           <span class="menu-icon__line menu-icon__line-right"></span>
          </div>
-      </nav>
+       </a>
+       <div class="site-content">
       <section class="section is-medium is-white has-text-centered ">
          <div class="container">
             <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Hello World, I'm Christos.</h1>
@@ -66,7 +46,7 @@
             These have been located to mainly english speaking countries, from United Kingdom to United States.
          </h2>
       </section>
-      <section class="section is-white has-text-centered ">
+      <section class="section is-white has-text-centered">
          <div class="container">
             <div class="columns is-mobile is-vcentered">
                <div class="column">
@@ -111,34 +91,48 @@
             I always like Analyzing metrics and making data-based decisions and<br>
             Recommendations, resulting in higher rates of success.
             <p></p>
-            <a class="button is-dark is-medium is-outlined is-rounded" href="contact.html" target="_blank">
-            <span>Talk to me</span>
+
+            Email:christianodematas21@gmail.com
+            <p></p>
+            
+            <a class="button is-medium is-dark luxury btn-1" href="#navtoggle">
+            <span>Go to top :( </span>
             </a>
-            <a class="button is-dark is-medium is-outlined is-rounded" href="#navvar">
-            <span>Go back to top :( </span>
-            </a>
+            <a class="button is-medium is-white luxury btn-1" href="contact.html" target="_blank">
+               <span>Quickest way to grab my attention</span>
+               </a>
          </h2>
          <p></p>
-         <a class="button is-dark is-large" href="https://github.com/Marvelosian">
-         <span class="icon">
-         <i class="fab fa-github fa-lg"></i>
-         </span>
-         </a>
-         <a class="button is-dark is-large" href="https://www.instagram.com/marvelosian/">
-         <span class="icon">
-         <i class="fab fa-instagram fa-lg"></i>
-         </span>
-         </a>
-         <a class="button is-dark  is-large" href="https://www.linkedin.com/in/christos-dematas-a50452169/">
-         <span class="icon">
-         <i class="fab fa-linkedin fa-lg"></i>
-         </span>
-         </a>
-         <a class="button is-dark  is-large" href="https://twitter.com/marvelosian">
-         <span class="icon">
-         <i class="fab fa-twitter fa-lg"></i>
-         </span>
-         </a>
+         <a class="button socialmedia is-white is-medium btn-ghost" href="https://github.com/Marvelosian">
+            <span class="icon">
+              <i class="fab fa-github fa-lg" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="button socialmedia is-white is-medium btn-ghost" href="https://www.instagram.com/marvelosian/">
+            <span class="icon">
+              <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="button socialmedia is-white is-medium btn-ghost" href="https://www.linkedin.com/in/christos-dematas-a50452169/">
+            <span class="icon">
+              <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+            </span>
+          </a>
+          <a class="button socialmedia is-white is-medium btn-ghost" href="https://twitter.com/marvelosian">
+            <span class="icon">
+              <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+            </span>
+          </a>
       </section>
+   </div>
+   <div class="loader-wrapper" id="pre-loader"></div>
+
+   <!-- Js -->
+ 
+   <script src="/js/5bab8b5572.js" crossorigin="anonymous"></script>
+   <script src="/js/jquery-3.5.1.min.js"></script>
+ 
+   <!-- custom js -->
+   <script src="/js/main.js"></script>
    </body>
 </html>
