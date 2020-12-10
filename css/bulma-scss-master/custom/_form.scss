@@ -1,0 +1,75 @@
+
+.is-form-page .container {
+	padding: 0 20px;
+}
+
+.is-form-page .container .avatar {
+	width: 84px;
+	margin: -50px auto 50px;
+	z-index: 10;
+}
+
+.is-form-page .container h1.title {
+	font-weight: 400;
+}
+
+.is-form-page .container form {
+	max-width: 640px;
+	margin: 32px auto 0;
+}
+
+@media screen and (min-width: 769px) {
+	.is-form-page .container form {
+		margin: 60px auto 0;
+	}
+}
+
+.is-form-page .container form label.label {
+	font-weight: 400;
+	font-family: "eurostile", sans-serif;
+	font-size: 1.2rem;
+	color: rgba(41, 51, 71, 0.65);
+}
+
+.is-form-page .container form input,
+.is-form-page .container form textarea,
+.is-form-page .container form select {
+	border-color: #E6ECF8;
+	color: #141c3a;
+	box-shadow: none;
+	font-weight: 300;
+}
+
+.is-form-page .container form input:hover,
+.is-form-page .container form textarea:hover,
+.is-form-page .container form select:hover {
+	border-color: #E6ECF8;
+}
+
+.is-form-page .container form input:focus,
+.is-form-page .container form textarea:focus,
+.is-form-page .container form select:focus {
+	box-shadow: none;
+}
+
+.is-form-page .container form input.is-large,
+.is-form-page .container form textarea.is-large,
+.is-form-page .container form select.is-large {
+	font-size: 1.4rem;
+}
+
+.is-form-page .container form .select:not(.is-multiple):not(.is-loading)::after {
+	top: 50%;
+	border-color: black;
+}
+
+.is-form-page .container form .select:not(.is-multiple) {
+	height: 50.4px;
+}
+
+.is-form-page .container form button {
+	margin: 20px 0 80px;
+	border-width: 2px;
+	font-weight: 400;
+	height: auto;
+}
