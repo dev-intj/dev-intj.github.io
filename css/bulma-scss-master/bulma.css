@@ -12926,6 +12926,11 @@ body.nav-active .nav__list-item:nth-child(4) {
           transition-delay: 0.9s;
 }
 
+body.nav-active .nav__list-item:nth-child(5) {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
 body.nav-active .menu-icon__line {
   background-color: #209cee;
 }
