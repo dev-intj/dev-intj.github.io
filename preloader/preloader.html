@@ -1,28 +1,16 @@
 <!-- Start of preloader -->
 <div class="loader-wrapper">
-    <div class="finger finger-1">
-      <div class="finger-item">
-        <span></span><i></i>
-      </div>
-    </div>
-    <div class="finger finger-2">
-      <div class="finger-item">
-        <span></span><i></i>
-      </div>
-    </div>
-    <div class="finger finger-3">
-      <div class="finger-item">
-        <span></span><i></i>
-      </div>
-    </div>
-    <div class="finger finger-4">
-      <div class="finger-item">
-        <span></span><i></i>
-      </div>
-    </div>
-    <div class="last-finger">
-      <div class="last-finger-item"><i></i></div>
-    </div>
+  <div class="preloader">
+    <div class="preloader-anim"></div><svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="goo">
+          <fegaussianblur in="SourceGraphic" stddeviation="15" result="blur"></fegaussianblur>
+          <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 30 -10" result="goo"></fecolormatrix>
+          <feblend in="SourceGraphic" in2="goo"></feblend>
+        </filter>
+      </defs>
+    </svg>
+  </div>
   </div>
 
 <!-- End of preloader -->

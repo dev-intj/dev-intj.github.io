@@ -1,0 +1,92 @@
+$bgcolor: black;
+$goocolor: #ffffff;
+$bigsize: 50px;
+$smallsize: 30px;
+$containerwidth: 500px;
+$animoffset: 150px;
+$animtime: 2.5s;
+$containerheight: $bigsize*2;
+
+.loader-wrapper{
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: #000;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.preloader {
+	filter:url('#goo');
+	position:relative;
+	width:$containerwidth;
+	height:$containerheight;
+	&::after { //big goo in middle
+		content:'';
+		display:block;
+		width:$bigsize;
+		height:$bigsize;
+		border-radius:50%;
+		background:$goocolor;
+		margin:0 auto;
+		position:absolute;
+		top:$containerheight/2 - $bigsize/2;
+		left:$containerwidth/2 - $bigsize/2;
+		animation:scale $animtime ease-in-out infinite;
+	}
+    .preloader-anim {
+		position:absolute;
+		width:$smallsize;
+		height:$smallsize;
+		border-radius:50%;
+		background:$goocolor;
+		top:$containerheight/2 -$smallsize/2;
+		left:$containerwidth/2 - $smallsize/2;
+		animation:move $animtime ease-in-out infinite alternate;
+		&::after, &::before {
+			content:'';
+			display:block;
+			position:absolute;
+			width:$smallsize;
+			height:$smallsize;
+			border-radius:50%;
+			background:$goocolor;
+		}
+		&::before {
+			left:$smallsize*-2.5;
+		}
+		&::after {
+			left:$smallsize*2.5;
+		}
+	}
+	svg { //Firefox bug fix
+		position:absolute;
+		z-index:-100;
+		pointer-events:none;
+	}
+}
+
+@keyframes move {
+	0% {
+		transform:translateX($animoffset*-1);
+	}
+	100% {
+		transform:translateX($animoffset);
+	}
+}
+
+@keyframes scale {
+	10% {
+		transform:scale(1);
+	}
+	50% {
+		transform:scale(1.25);
+	}
+	90% {
+		transform:scale(1);
+	}
+}
+
