@@ -96,7 +96,7 @@ export default {
             stage: <FaCheckSquare />,
             source: false,
             blog: true,
-            blogroute: "/projects/runeragnarok",
+            blogroute: "./projects/runeragnarok",
         },
         {
             site: "https://netflixqdes.web.app",

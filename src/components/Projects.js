@@ -2,7 +2,7 @@ import React from "react";
 import data from "../data";
 import { IconContext } from "react-icons";
 import { FaExternalLinkAlt, FaLongArrowAltRight, FaTimes, FaFolderOpen, FaBlog } from "react-icons/fa";
-
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className="portfolio-projects">
@@ -22,11 +22,12 @@ const Projects = () => {
                                             </IconContext.Provider>
                                         </a>
                                         {project.blog == true ? (
-                                            <a className="pf-p-project-view" href={project.blogroute}>Blog
+                                            <Link to={project.blogroute} className="pf-p-project-view">
+                                                Blog
                                                 <IconContext.Provider value={{ className: "work-icons", size: 18 }}>
                                                     <FaLongArrowAltRight />
                                                 </IconContext.Provider>
-                                            </a>
+                                            </Link>
                                         ) : (
                                             <a className="pf-p-project-view" href={project.site}>View
                                                 <IconContext.Provider value={{ className: "work-icons", size: 18 }}>

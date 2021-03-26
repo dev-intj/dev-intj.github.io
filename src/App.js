@@ -1,7 +1,6 @@
 import { hot } from 'react-hot-loader/root';
-import { BrowserRouter as Router, Route, Switch, Link, useHistory } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom'
 
 
 //import css styles (scss in this case)
@@ -21,7 +20,7 @@ function App() {
   return (
     <div className="App">
 
-      <Router forceRefresh={true}>
+      <HashRouter>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
@@ -30,7 +29,7 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/projects/runeragnarok' component={RuneRagnarok} />
         </Switch>
-      </Router>
+      </HashRouter>
 
     </div>
   );
