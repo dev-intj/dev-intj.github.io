@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dev-intj.github.io/static/css/main.e4831f5f.chunk.css",
-    "main.js": "/dev-intj.github.io/static/js/main.e68d0b25.chunk.js",
-    "main.js.map": "/dev-intj.github.io/static/js/main.e68d0b25.chunk.js.map",
+    "main.js": "/dev-intj.github.io/static/js/main.f78364b2.chunk.js",
+    "main.js.map": "/dev-intj.github.io/static/js/main.f78364b2.chunk.js.map",
     "runtime-main.js": "/dev-intj.github.io/static/js/runtime-main.694ed692.js",
     "runtime-main.js.map": "/dev-intj.github.io/static/js/runtime-main.694ed692.js.map",
-    "static/js/2.26cdd714.chunk.js": "/dev-intj.github.io/static/js/2.26cdd714.chunk.js",
-    "static/js/2.26cdd714.chunk.js.map": "/dev-intj.github.io/static/js/2.26cdd714.chunk.js.map",
+    "static/js/2.a892b14b.chunk.js": "/dev-intj.github.io/static/js/2.a892b14b.chunk.js",
+    "static/js/2.a892b14b.chunk.js.map": "/dev-intj.github.io/static/js/2.a892b14b.chunk.js.map",
     "index.html": "/dev-intj.github.io/index.html",
     "static/css/main.e4831f5f.chunk.css.map": "/dev-intj.github.io/static/css/main.e4831f5f.chunk.css.map",
-    "static/js/2.26cdd714.chunk.js.LICENSE.txt": "/dev-intj.github.io/static/js/2.26cdd714.chunk.js.LICENSE.txt",
+    "static/js/2.a892b14b.chunk.js.LICENSE.txt": "/dev-intj.github.io/static/js/2.a892b14b.chunk.js.LICENSE.txt",
     "static/media/Humanheadlogo.7ade8286.png": "/dev-intj.github.io/static/media/Humanheadlogo.7ade8286.png",
     "static/media/back-end.0068d977.svg": "/dev-intj.github.io/static/media/back-end.0068d977.svg",
     "static/media/dorito.c96ac0a6.png": "/dev-intj.github.io/static/media/dorito.c96ac0a6.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.694ed692.js",
-    "static/js/2.26cdd714.chunk.js",
+    "static/js/2.a892b14b.chunk.js",
     "static/css/main.e4831f5f.chunk.css",
-    "static/js/main.e68d0b25.chunk.js"
+    "static/js/main.f78364b2.chunk.js"
   ]
 }
