@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/dev-intj.github.io/static/css/main.e4831f5f.chunk.css",
+    "main.js": "/dev-intj.github.io/static/js/main.e6ca6d7b.chunk.js",
+    "main.js.map": "/dev-intj.github.io/static/js/main.e6ca6d7b.chunk.js.map",
+    "runtime-main.js": "/dev-intj.github.io/static/js/runtime-main.694ed692.js",
+    "runtime-main.js.map": "/dev-intj.github.io/static/js/runtime-main.694ed692.js.map",
+    "static/js/2.59041911.chunk.js": "/dev-intj.github.io/static/js/2.59041911.chunk.js",
+    "static/js/2.59041911.chunk.js.map": "/dev-intj.github.io/static/js/2.59041911.chunk.js.map",
+    "index.html": "/dev-intj.github.io/index.html",
+    "static/css/main.e4831f5f.chunk.css.map": "/dev-intj.github.io/static/css/main.e4831f5f.chunk.css.map",
+    "static/js/2.59041911.chunk.js.LICENSE.txt": "/dev-intj.github.io/static/js/2.59041911.chunk.js.LICENSE.txt",
+    "static/media/Humanheadlogo.7ade8286.png": "/dev-intj.github.io/static/media/Humanheadlogo.7ade8286.png",
+    "static/media/back-end.0068d977.svg": "/dev-intj.github.io/static/media/back-end.0068d977.svg",
+    "static/media/dorito.c96ac0a6.png": "/dev-intj.github.io/static/media/dorito.c96ac0a6.png",
+    "static/media/edge-of-reality-logo.5c7684b4.png": "/dev-intj.github.io/static/media/edge-of-reality-logo.5c7684b4.png",
+    "static/media/entertowinakey.e3ed366e.png": "/dev-intj.github.io/static/media/entertowinakey.e3ed366e.png",
+    "static/media/front-end.d3bc3bbf.svg": "/dev-intj.github.io/static/media/front-end.d3bc3bbf.svg",
+    "static/media/netflix.67449fcb.png": "/dev-intj.github.io/static/media/netflix.67449fcb.png",
+    "static/media/runeragnarok.1fcf6b39.png": "/dev-intj.github.io/static/media/runeragnarok.1fcf6b39.png",
+    "static/media/screenshot1.6ce0a338.png": "/dev-intj.github.io/static/media/screenshot1.6ce0a338.png",
+    "static/media/sixteenquotes.b50dfde0.png": "/dev-intj.github.io/static/media/sixteenquotes.b50dfde0.png",
+    "static/media/soak-logo.02de9e9e.jpg": "/dev-intj.github.io/static/media/soak-logo.02de9e9e.jpg",
+    "static/media/uiux-des.79c27734.svg": "/dev-intj.github.io/static/media/uiux-des.79c27734.svg",
+    "static/media/wallpapers.8d5552fd.png": "/dev-intj.github.io/static/media/wallpapers.8d5552fd.png",
+    "static/media/whichgodareyou.6700182c.png": "/dev-intj.github.io/static/media/whichgodareyou.6700182c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.694ed692.js",
+    "static/js/2.59041911.chunk.js",
+    "static/css/main.e4831f5f.chunk.css",
+    "static/js/main.e6ca6d7b.chunk.js"
+  ]
+}
