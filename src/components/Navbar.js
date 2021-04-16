@@ -14,11 +14,13 @@ const Navbar = () => {
             navmenu.current.classList.add('is-active');
         }
     };
+    
     return (
 
         <div className="react-navbar">
-
+            
             <nav className="navbar is-white is-fixed-top">
+            <div class="container">
                 <div className="navbar-brand">
                     <div className="navbar-burger" ref={navburger} onClick={showmenu} data-target="navbarExampleTransparentExample">
                         <span></span>
@@ -48,6 +50,7 @@ const Navbar = () => {
                             </NavLink>
                         </div>
                     </div>
+                </div>
                 </div>
             </nav>
 

@@ -112,19 +112,6 @@ export default {
             blogroute: ""
         },
         {
-            site: "./projects/UIUX/DORITO/DORITOMOCKUP.png",
-            class: "dorito",
-            img: Dorito,
-            alt: "netflix quick design thumbnail",
-            title: "Dorito - (Wireframing)",
-            description: "UI / UX | Practice(Quick App Design)",
-            stage: <FaEdit />,
-            source_site: "https://github.com/dev-intj/dev-intj.github.io/tree/master/projects/UIUX/DORITO",
-            source: true,
-            blog: false,
-            blogroute: ""
-        },
-        {
             site: "https://dev-intj.github.io/wallpapers/",
             class: "wallpapers",
             img: Wallpapers,

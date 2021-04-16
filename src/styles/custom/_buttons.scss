@@ -351,6 +351,7 @@ $button-colors: $colors !default;
 
   &.is-large {
     @include button-large;
+    font-size:1.2rem;
   }
 
   // Modifiers
@@ -571,6 +572,9 @@ $button-colors: $colors !default;
       }
       &.btn-4:hover {
         box-shadow: 0 0 50px 2px rgba(255, 255, 255, 0.5) inset;
+      }
+      &.no-border{
+        border:0px;
       }
     }
   }
