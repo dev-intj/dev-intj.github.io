@@ -19,11 +19,14 @@ import NetflixQDes from "./images/projects/netflix.png";
 import Dorito from "./images/projects/dorito.png";
 import Wallpapers from "./images/projects/wallpapers.png";
 
+
 //Past companies
 import EdgeOfReality from "./images/past-companies/edge-of-reality-logo.png";
 import HumanHeadStudios from "./images/past-companies/Humanheadlogo.png";
 import SoakCom from "./images/past-companies/soak-logo.jpg";
 
+//importing geometry 810
+import Square from "./images/810/square_810.svg";
 /* 
 //import things I need
 import Layout from './components/layout';

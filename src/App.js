@@ -5,7 +5,7 @@ import createHistory from "history/createBrowserHistory"
 
 
 //import css styles (scss in this case)
-import './styles/custom-bulma.scss';
+import './styles/custom/_all.scss';
 //import main pages of the portfolio
 import Home from './pages/Home';
 import About from './pages/About';
@@ -14,7 +14,8 @@ import Work from './pages/Work';
 
 //import project pages
 import RuneRagnarok from './pages/projects/RuneRagnarok';
-
+//testing
+import Abstract from './pages/Abstract';
 export const history = createHistory()
 
 history.listen((location, action) => {
@@ -30,10 +31,12 @@ function App() {
         <Switch>
           <Route exact path='/' component={() => <Home/>} />
           <Route path='/about' component={() => <About/>} />
-          <Route path='/work' component={Work} />
+          <Route path='/work' component={() => <Work/>}  />
+          <Route path='/contact' component={() => <Contact/>} />
+          <Route path='/abstract' component={() => <Abstract/>} />
           {/* Projects switch */}
-          <Route path='/contact' component={Contact} />
-          <Route path='/projects/runeragnarok' component={RuneRagnarok} />
+          <Route path='/projects/runeragnarok' component={() => <RuneRagnarok/>} />
+          
         </Switch>
       </HashRouter>
 

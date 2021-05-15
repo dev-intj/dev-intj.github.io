@@ -5,8 +5,6 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 const HeaderF = () => {
     return (
-
-
         <div className="react-header-footer">
             <section className="section is-halfheight is-primary has-text-centered">
                 <div className="container">
