@@ -1,0 +1,124 @@
+$is-dark: #231f20;
+
+.section {
+  padding: 3rem 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .section.is-medium {
+    padding: 9rem 1.5rem;
+  }
+  .section.is-large {
+    padding: 18rem 1.5rem;
+  }
+}
+
+.section {
+  padding: 5rem 1.5rem;
+}
+
+.section.is-primary {
+  background-color: #7510f7;
+  color: #fff;
+}
+
+.section.is-primary .title {
+  color: #fff;
+}
+
+.section.is-primary .subtitle {
+  color: #fff;
+}
+.section.is-primary {
+  background-color: $is-dark;
+  color: #fff;
+}
+.section.is-long {
+  padding-bottom: 14rem;
+}
+
+@media screen and (min-width: 769px) {
+  .section.is-long {
+    padding-bottom: 16rem;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .section.is-long {
+    padding-bottom: 18rem;
+  }
+}
+
+.section.is-long-ish {
+  padding-bottom: 12rem;
+}
+
+@media screen and (min-width: 769px) {
+  .section.is-long-ish {
+    padding-bottom: 13rem;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .section.is-long-ish {
+    padding-bottom: 14rem;
+  }
+}
+
+.section p {
+  margin-bottom: 2rem;
+}
+
+.section {
+  &.skill {
+    img {
+      max-width: 80%;
+    }
+  }
+}
+.is-page-title .hero-body img.is-skill-icon {
+  margin: 2.5rem auto 0;
+  height: 56px;
+}
+
+.section.clients .client-grid {
+  padding-top: 3rem;
+}
+
+footer.section.is-small {
+  padding: 0rem 1.5rem 4rem;
+}
+
+@media screen and (min-width: 769px) {
+  footer.section.is-small {
+    padding: 1rem 1.5rem 4rem;
+  }
+}
+
+.section.is-halfheight {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-height: 50vh;
+}
+
+@media screen and (min-width: 1088px) {
+  .section.is-medium {
+    padding: 9rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section.is-medium {
+    padding: 9rem 1.5rem;
+  }
+  .section.is-large {
+    padding: 18rem 1.5rem;
+  }
+}
+.Companies {
+  width: 50%;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
