@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                 ))}
 
-                <div className="section is-primary has-text-centered">
+                <div className="section is-white has-text-centered">
                     <div className="container">
                         <h2 className="subtitle is-size-4-desktop">{data.About_contact.contact_paragraph}</h2>
                         <p></p>

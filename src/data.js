@@ -43,7 +43,7 @@ export default {
         header_title: "Web Designer & Web Developer",
         header_subtitle: "I like clean code and beautifully designed things.",
         header_footer_title: "Hi, I’m Christos.",
-        header_footer_subtitle: "A Goal-oriented, extremely persistent person enthusiastic in building enriching user-centric experiences.",
+        header_footer_subtitle: "I'm a UI/UX designer aiming to be a Full Stack Web Developer",
     },
     //Skills Section
     skills: [
@@ -138,7 +138,7 @@ export default {
     },
     about1: [
         {
-            paragraph: "My web development story started once I started learning programming in my high school. I was all pumped up, thinking that I’ve found something that I would love doing one day and 4 years later it's still my passion, well I mainly focus on Front-End Development but you get the point!",
+            paragraph: "My main experience is in UI/UX but I love Front-End Development and Back-End Development. I have experience managing a project from initial consultation to launch, using analytics to read the behavior of the users and influence them through carefully pixel - perfect design elements.",
             class: "is-primary"
         },
         {
@@ -148,12 +148,8 @@ export default {
     ],
     about2: [
         {
-            paragraph: "My main experience is in UI/UX but I love Front-End Development and Design. I have experience managing a project from initial consultation to launch, using analytics to read the behavior of the users and influence them through carefully pixel - perfect design elements.",
+            paragraph: "I have worked on a multitude of projects with different technologies, on the Web Design (Photoshop, AdobeXD, Illustrator, InDesign) and Development (HTML, SCSS, JS, jQuery, BootStrap, ReactJS) having in mind responsiveness and scalability.",
             class: "is-primary"
-        },
-        {
-            paragraph: "Are you looking for a freelancer or are you looking to fill a position?<p></p>... I'm currently open",
-            class: "is-white"
         },
     ],
     About_contact: {
