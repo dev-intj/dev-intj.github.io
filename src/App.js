@@ -1,7 +1,8 @@
 import { hot } from 'react-hot-loader/root';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import { HashRouter} from 'react-router-dom'
-import createHistory from "history/createBrowserHistory"
+import { BrowserRouter as Router, Route, Switch, Link, BrowserRouter } from 'react-router-dom';
+
+//sem and seo management
+import {Helmet} from 'react-helmet'
 
 //import css styles (scss in this case)
 import './styles/custom/_all.scss';
@@ -14,29 +15,35 @@ import Work from './pages/Work';
 //import project pages
 import RuneRagnarok from './pages/projects/RuneRagnarok';
 
-export const history = createHistory()
-
-history.listen((location, action) => {
-    window.scrollTo(0, 0)
-})
+import ScrollToTop from './utils/scrollToTop';
 
 
 function App() {
   return (
     <div className="App">
 
-      <HashRouter>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Christos Dematas</title>
+        <meta name="description" content="A UI/UX Designer based in Greece aims to be Full Stack Software Engineer"/>
+        <link rel="canonical" href="https://dev-intj.github.io/"/>
+      </Helmet>
+
+      <Router>
+        <ScrollToTop>
         <Switch>
           <Route exact path='/' component={() => <Home/>} />
           <Route path='/about' component={() => <About/>} />
           <Route path='/work' component={() => <Work/>}  />
           <Route path='/contact' component={() => <Contact/>} />
+
           {/* Projects switch */}
           <Route path='/projects/runeragnarok' component={() => <RuneRagnarok/>} />
           
         </Switch>
-      </HashRouter>
-
+        </ScrollToTop>
+      </Router>
+     
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import projects_data from "../../projects_data";
+import projects_data from "../../websiteData/projects_data";
 import { FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons";
 

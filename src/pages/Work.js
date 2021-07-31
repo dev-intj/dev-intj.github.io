@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "../components/Projects";
-import data from "../data";
+import data from "../websiteData/data";
 import { IconContext } from "react-icons";
 import Layout from "../components/layout";
 

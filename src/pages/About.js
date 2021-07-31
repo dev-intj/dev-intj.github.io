@@ -1,6 +1,6 @@
 import React from "react";
 import PastCompanies from "../components/PastCompanies";
-import data from "../data";
+import data from "../websiteData/data";
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import Layout from "../components/layout";
 const About = () => {

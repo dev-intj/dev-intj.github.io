@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data";
+import data from "../websiteData/data";
 import { IconContext } from "react-icons";
 import { FaExternalLinkAlt, FaLongArrowAltRight, FaTimes, FaFolderOpen, FaBlog } from "react-icons/fa";
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';

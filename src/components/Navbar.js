@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="react-navbar">
             
             <nav className="navbar is-white is-fixed-top">
-            <div class="container">
+            <div className="container">
                 <div className="navbar-brand">
                     <div className="navbar-burger" ref={navburger} onClick={showmenu} data-target="navbarExampleTransparentExample">
                         <span></span>

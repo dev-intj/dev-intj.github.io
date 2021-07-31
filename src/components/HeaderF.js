@@ -1,6 +1,5 @@
 import React from "react";
-import data from "../data";
-import Header from "./Header";
+import data from "../websiteData/data";
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 const HeaderF = () => {
