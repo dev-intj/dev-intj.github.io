@@ -1,35 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.23481ce2.chunk.css",
-    "main.js": "/static/js/main.73d97078.chunk.js",
-    "main.js.map": "/static/js/main.73d97078.chunk.js.map",
+    "main.js": "/static/js/main.51ea4c3c.chunk.js",
+    "main.js.map": "/static/js/main.51ea4c3c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3b56acb3.js",
     "runtime-main.js.map": "/static/js/runtime-main.3b56acb3.js.map",
-    "static/js/2.63e2fb7f.chunk.js": "/static/js/2.63e2fb7f.chunk.js",
-    "static/js/2.63e2fb7f.chunk.js.map": "/static/js/2.63e2fb7f.chunk.js.map",
+    "static/js/2.cdd3537c.chunk.js": "/static/js/2.cdd3537c.chunk.js",
+    "static/js/2.cdd3537c.chunk.js.map": "/static/js/2.cdd3537c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.23481ce2.chunk.css.map": "/static/css/main.23481ce2.chunk.css.map",
-    "static/js/2.63e2fb7f.chunk.js.LICENSE.txt": "/static/js/2.63e2fb7f.chunk.js.LICENSE.txt",
+    "static/js/2.cdd3537c.chunk.js.LICENSE.txt": "/static/js/2.cdd3537c.chunk.js.LICENSE.txt",
     "static/media/Humanheadlogo.7ade8286.png": "/static/media/Humanheadlogo.7ade8286.png",
     "static/media/back-end.6ea69e10.svg": "/static/media/back-end.6ea69e10.svg",
     "static/media/dorito.c96ac0a6.png": "/static/media/dorito.c96ac0a6.png",
     "static/media/edge-of-reality-logo.5c7684b4.png": "/static/media/edge-of-reality-logo.5c7684b4.png",
     "static/media/entertowinakey.e3ed366e.png": "/static/media/entertowinakey.e3ed366e.png",
+    "static/media/favicon.f42e1b69.ico": "/static/media/favicon.f42e1b69.ico",
     "static/media/front-end.2e96e032.svg": "/static/media/front-end.2e96e032.svg",
     "static/media/netflix.67449fcb.png": "/static/media/netflix.67449fcb.png",
     "static/media/runeragnarok.1fcf6b39.png": "/static/media/runeragnarok.1fcf6b39.png",
     "static/media/screenshot1.6ce0a338.png": "/static/media/screenshot1.6ce0a338.png",
     "static/media/sixteenquotes.b50dfde0.png": "/static/media/sixteenquotes.b50dfde0.png",
     "static/media/soak-logo.02de9e9e.jpg": "/static/media/soak-logo.02de9e9e.jpg",
-    "static/media/square_810.4ca33bbd.svg": "/static/media/square_810.4ca33bbd.svg",
     "static/media/uiux-des.44a8cdde.svg": "/static/media/uiux-des.44a8cdde.svg",
     "static/media/wallpapers.8d5552fd.png": "/static/media/wallpapers.8d5552fd.png",
     "static/media/whichgodareyou.6700182c.png": "/static/media/whichgodareyou.6700182c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3b56acb3.js",
-    "static/js/2.63e2fb7f.chunk.js",
+    "static/js/2.cdd3537c.chunk.js",
     "static/css/main.23481ce2.chunk.css",
-    "static/js/main.73d97078.chunk.js"
+    "static/js/main.51ea4c3c.chunk.js"
   ]
 }
