@@ -5,9 +5,9 @@ import { FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 //images
-import RuneRagnarokimage1 from "../../images/projects/runeragnarok/screenshot1.png";
-import RuneRagnarokimage2 from "../../images/projects/runeragnarok/whichgodareyou.png";
-import RuneRagnarokimage3 from "../../images/projects/runeragnarok/entertowinakey.png";
+import RuneRagnarokimage1 from "../../assets/images/projects/runeragnarok/screenshot1.png";
+import RuneRagnarokimage2 from "../../assets/images/projects/runeragnarok/whichgodareyou.png";
+import RuneRagnarokimage3 from "../../assets/images/projects/runeragnarok/entertowinakey.png";
 
 const RuneRagnarok = () => {
     return (

@@ -13,7 +13,7 @@ module.exports = {
         }
     },
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "/"),
     },
     module: {
         rules: [
@@ -53,7 +53,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             inject: true,
             template: path.join(__dirname, "src", "index.html"),
-            favicon: "./src/images/favicon.ico"
+            favicon: "./src/assets/images/favicon.ico"
         }),
     ],
 }

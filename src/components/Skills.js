@@ -1,7 +1,13 @@
 import React from "react";
-import data from "../websiteData/data";
+import data3 from '../websiteData/data';
+import i18n from "i18next";
+import { useTranslation, initReactI18next } from "react-i18next";
 
 const Skills = () => {
+    const { t, i18n } = useTranslation();
+    const transdata = data3
+    const data2 = t('skills', { returnObjects: true });
+    console.log(data2)
     return (
         <div className="react-skills">
             <div className="section skill is-white has-text-centered">
@@ -10,7 +16,7 @@ const Skills = () => {
                         <div className="content">
                             <div className="columns is-centered">
 
-                                {data.skills.map((skill, index) => (
+                                {transdata.skills.map((skill, index) => (
                                     <div className="column" key={skill.title}>
                                         <div>
                                             <img className="is-skill-icon" src={skill.img} alt={skill.alt} />

@@ -1,60 +1,51 @@
 {
-  "name": "personal-portfolio",
-  "version": "0.3.0",
-  "private": true,
-  "homepage": "https://dev-intj.github.io/",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "bulma": "^0.9.3",
-    "firebase": "^8.8.1",
-    "gatsby-plugin-react-helmet": "^4.10.0",
-    "react": "^17.0.2",
-    "react-bulma-components": "^4.0.7",
-    "react-dom": "^17.0.2",
-    "react-head": "^3.4.0",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^2.1.0"
-  },
+  "name": "dev-intj.github.io",
+  "version": "3.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
   "scripts": {
     "start": "webpack serve --config webpack.config.js --history-api-fallback --mode=development",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "build": "webpack build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-intj/dev-intj.github.io.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-intj/dev-intj.github.io/issues"
+  },
+  "homepage": "https://github.com/dev-intj/dev-intj.github.io#readme",
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "firebase": "^8.8.1",
+    "i18next": "^20.3.5",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "i18next-http-backend": "^1.3.0",
+    "react": "^17.0.2",
+    "react-bulma-components": "^4.0.7",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-hot-loader": "^4.13.0",
+    "react-i18next": "^11.11.4",
+    "react-icons": "^4.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
-    "eslint": "^7.32.0",
-    "gh-pages": "^3.2.3",
-    "react-hot-loader": "^4.13.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
     "sass": "^1.37.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
     "webpack": "^5.47.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"

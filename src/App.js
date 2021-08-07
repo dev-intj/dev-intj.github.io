@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch, Link, BrowserRouter } from 'rea
 import {Helmet} from 'react-helmet'
 
 //import css styles (scss in this case)
-import './styles/custom/_all.scss';
+import './assets/scss/_all.scss';
 //import main pages of the portfolio
 import Home from './pages/Home';
 import About from './pages/About';
@@ -16,7 +16,6 @@ import Work from './pages/Work';
 import RuneRagnarok from './pages/projects/RuneRagnarok';
 
 import ScrollToTop from './utils/scrollToTop';
-
 
 function App() {
   return (

@@ -2,9 +2,9 @@
 
 
 //Skills
-import backendIcon from "../images/skills/back-end.svg";
-import frontendIcon from "../images/skills/front-end.svg";
-import uiuxdesIcon from "../images/skills/uiux-des.svg";
+import backendIcon from "../assets/images/skills/back-end.svg";
+import frontendIcon from "../assets/images/skills/front-end.svg";
+import uiuxdesIcon from "../assets/images/skills/uiux-des.svg";
 
 //Socials
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -13,17 +13,17 @@ import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaCircleNotch, FaEdit, FaCheckSquare, FaFolderOpen } from "react-icons/fa";
 
 //Project Thumbnails
-import RuneRagnarok from "../images/projects/runeragnarok.png";
-import SixteenQuotes from "../images/projects/sixteenquotes.png";
-import NetflixQDes from "../images/projects/netflix.png";
-import Dorito from "../images/projects/dorito.png";
-import Wallpapers from "../images/projects/wallpapers.png";
+import RuneRagnarok from "../assets/images/projects/runeragnarok.png";
+import SixteenQuotes from "../assets/images/projects/sixteenquotes.png";
+import NetflixQDes from "../assets/images/projects/netflix.png";
+import Dorito from "../assets/images/projects/dorito.png";
+import Wallpapers from "../assets/images/projects/wallpapers.png";
 
 
 //Past companies
-import EdgeOfReality from "../images/past-companies/edge-of-reality-logo.png";
-import HumanHeadStudios from "../images/past-companies/Humanheadlogo.png";
-import SoakCom from "../images/past-companies/soak-logo.jpg";
+import EdgeOfReality from "../assets/images/past-companies/edge-of-reality-logo.png";
+import HumanHeadStudios from "../assets/images/past-companies/Humanheadlogo.png";
+import SoakCom from "../assets/images/past-companies/soak-logo.jpg";
 
 /* 
 //import things I need

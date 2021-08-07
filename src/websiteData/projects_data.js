@@ -1,7 +1,3 @@
-//extra icons
-import { FaTimes } from "react-icons/fa";
-
-
 
 export default {
     runeragnarok:
@@ -12,7 +8,8 @@ export default {
             "UI/UX", "CMS", "APIs", "Responsive CSS", "WordPress", "Performance Testing", "GitHub"
         ],
         updates: [
-            { date: "28 Sep 2018", description: "Explanation of my position and work experience working for Human Head Studio." }
+            { date: "28 Sep 2018", 
+            description: "Explanation of my position and work experience working for Human Head Studio." }
         ],
     }
 }
