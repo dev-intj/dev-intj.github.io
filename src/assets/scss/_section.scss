@@ -1,5 +1,3 @@
-$is-dark: #231f20;
-
 .section {
   padding: 3rem 1.5rem;
 }
@@ -17,22 +15,6 @@ $is-dark: #231f20;
   padding: 5rem 1.5rem;
 }
 
-.section.is-primary {
-  background-color: #7510f7;
-  color: #fff;
-}
-
-.section.is-primary .title {
-  color: #fff;
-}
-
-.section.is-primary .subtitle {
-  color: #fff;
-}
-.section.is-primary {
-  background-color: $is-dark;
-  color: #fff;
-}
 .section.is-long {
   padding-bottom: 14rem;
 }
@@ -102,6 +84,8 @@ footer.section.is-small {
   flex-shrink: 1;
   min-height: 50vh;
 }
+
+
 
 @media screen and (min-width: 1088px) {
   .section.is-medium {

@@ -40,7 +40,7 @@ export default {
     header: {
         header_title: "Web Designer & Web Developer",
         header_subtitle: "I like clean code and beautifully designed things.",
-        header_footer_title: "Hi, I’m Christos.",
+        header_footer_title: "Hi, I’m Christos",
         header_footer_subtitle: "I'm a UI/UX designer aiming to be a Full Stack Web Developer",
     },
     //Skills Section
@@ -130,7 +130,7 @@ export default {
 
     //About Page
     about_header: {
-        title: "Hello World, I'm Christos.",
+        title: "Hello World, I'm Christos",
         subtitle: "A Web Developer from Greece. I've been coding & designing for over 4 years.",
         class: "white"
     },

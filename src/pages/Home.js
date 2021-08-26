@@ -1,14 +1,23 @@
 import React from "react";
-import Header from "../components/Header";
 import Skills from "../components/Skills";
-import HeaderF from "../components/HeaderF";
+
+import Header from "../components/HomePage/Header";
+import HeaderF from "../components/HomePage/HeaderFooter";
+
 import Layout from "../components/layout";
 const Home = () => {
     return (
         <Layout>
-            <div className="Home">
-                <Header />
-                <HeaderF />
+            <div className="home">
+                <div className="columns is-gapless">
+                    <div className="column">
+                    <Header />
+                    </div>
+                    <div className="column">
+                    <HeaderF />
+                    </div>
+                
+                </div> 
                 <Skills />
             </div>
         </Layout>

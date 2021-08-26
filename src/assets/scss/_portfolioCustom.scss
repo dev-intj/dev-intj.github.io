@@ -1,6 +1,15 @@
 // website colors
-
-$default-black: #fff;
+$default-black: #231f20;
 $default-light: #fff;
 
-// website animations
+.section.is-primary .title {
+    color: #fff;
+}
+
+.section.is-primary .subtitle {
+    color: #fff;
+}
+.section.is-primary {
+    background-color: $default-black;
+    color: #fff;
+}

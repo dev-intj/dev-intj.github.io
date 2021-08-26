@@ -33,8 +33,7 @@ $navbar-dropdown-radius: $radius-large !default;
 $navbar-dropdown-z: 20 !default;
 
 $navbar-dropdown-boxed-radius: $radius-large !default;
-$navbar-dropdown-boxed-shadow: 0 8px 8px bulmaRgba($scheme-invert, 0.1),
-  0 0 0 1px bulmaRgba($scheme-invert, 0.1) !default;
+$navbar-dropdown-boxed-shadow: 0 8px 8px bulmaRgba($scheme-invert, 0.1), 0 0 0 1px bulmaRgba($scheme-invert, 0.1) !default;
 
 $navbar-dropdown-item-hover-color: $scheme-invert !default;
 $navbar-dropdown-item-hover-background-color: $background !default;

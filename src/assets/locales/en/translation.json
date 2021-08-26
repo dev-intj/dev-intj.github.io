@@ -1,8 +1,11 @@
 {
+    "data":{
+
+    
     "header": {
-        "header_title": "Web Designer & Web Developer",
+        "header_title": "A upcoming Full Stack Software Engineer",
         "header_subtitle": "I like clean code and beautifully designed things.",
-        "header_footer_title": "Hi, I’m Christos.",
+        "header_footer_title": "Hi, I’m Christos",
         "header_footer_subtitle": "I'm a UI/UX designer aiming to be a Full Stack Web Developer"
     },
     "skills": [
@@ -85,7 +88,7 @@
         }
     ],
     "about_header": {
-        "title": "Hello World, I'm Christos.",
+        "title": "Hello World, I'm Christos",
         "subtitle": "A Web Developer from Greece. I've been coding & designing for over 4 years.",
         "class": "white"
     },
@@ -108,59 +111,6 @@
     "About_contact": {
         "contact_paragraph": "I take great pride in having the ability to complete work to the high standard you expect But also go the extra mile. I enjoy getting to know my clients, their ideals and their goals And how I can best apply myself to make sure their website succeeds. I always like Analyzing metrics and making data - based decisions and Recommendations, resulting in higher rates of success.",
         "contact_email": "mailto:demataschristiano@gmail.com"
-    },
-    "past_companies": [
-        {
-            "img": "EdgeOfReality",
-            "alt": "Edge of reality logo"
-        },
-        {
-            "img": "HumanHeadStudios",
-            "alt": "Human Head Studios logo"
-        },
-        {
-            "img": "SoakCom",
-            "alt": "Soak com logo"
-        }
-    ],
-    "social_media": [
-        {
-            "name": "Github",
-            "icon": "FaGithub",
-            "link": "https://github.com/dev-intj"
-        },
-        {
-            "name": "Instagram",
-            "icon": "FaInstagram",
-            "link": "https://www.instagram.com/dev_intj/"
-        },
-        {
-            "name": "Linkedin",
-            "icon": "FaLinkedin",
-            "link": "https://www.linkedin.com/in/christos-dematas-a50452169/"
-        },
-        {
-            "name": "Twitter",
-            "icon": "FaTwitter",
-            "link": "https://twitter.com/dev_intj"
-        }
-    ],
-    "stages": [
-        {
-            "icon": "FaCircleNotch",
-            "description": "Unfinished - Post Poned"
-        },
-        {
-            "icon": "FaEdit",
-            "description": "Working on it"
-        },
-        {
-            "icon": "FaCheckSquare",
-            "description": "Finished"
-        },
-        {
-            "icon": "FaFolderOpen",
-            "description": "Source Code Available"
-        }
-    ]
+    }
 }
+}   
