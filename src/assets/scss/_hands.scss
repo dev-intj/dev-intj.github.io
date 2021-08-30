@@ -5,19 +5,11 @@
 	margin: -35px 0 0 -56px;
 	width: 112px;
 	height: 70px;
+	*zoom: 1;
 }
 
-.loading .absolute {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -35px 0 0 -56px;
-	width: 112px;
-	height: 70px;
-}
-
-.loading:after,
-.loading:before {
+.loading:before,
+.loading:after {
 	display: table;
 	content: "";
 }
@@ -31,6 +23,105 @@
 	margin: 0 2px 0 0;
 	width: 20px;
 	height: 100%;
+}
+
+.loading .finger-item {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 6px 6px 8px 8px;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 6px 6px 8px 8px;
+	-moz-background-clip: padding;
+	border-radius: 6px 6px 8px 8px;
+	background-clip: padding-box;
+	background: #fff;
+}
+
+.loading .finger-item span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	padding: 5px 5px 0 5px;
+}
+
+.loading .finger-item span:before,
+.loading .finger-item span:after {
+	content: "";
+	position: relative;
+	display: block;
+	margin: 0 0 2px 0;
+	width: 100%;
+	height: 2px;
+	background: #4492f4;
+}
+
+.loading .finger-item i {
+	position: absolute;
+	left: 3px;
+	bottom: 3px;
+	width: 14px;
+	height: 14px;
+	-webkit-border-radius: 10px 10px 7px 7px;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 10px 10px 7px 7px;
+	-moz-background-clip: padding;
+	border-radius: 10px 10px 7px 7px;
+	background-clip: padding-box;
+	background: #4492f4;
+}
+
+.loading .last-finger {
+	position: relative;
+	float: left;
+	width: 24px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.loading .last-finger-item {
+	position: absolute;
+	right: 0;
+	top: 32px;
+	width: 110%;
+	height: 20px;
+	-webkit-border-radius: 0 5px 14px 0;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 0 5px 14px 0;
+	-moz-background-clip: padding;
+	border-radius: 0 5px 14px 0;
+	background-clip: padding-box;
+	background: #fff;
+	-webkit-animation: finger-5-animation 2s infinite linear;
+	animation: finger-5-animation 2s infinite linear;
+}
+
+.loading .last-finger-item i {
+	position: absolute;
+	left: 0;
+	top: -8px;
+	width: 22px;
+	height: 8px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.loading .last-finger-item i:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 34px;
+	height: 20px;
+	-webkit-border-radius: 0 0 15px 15px;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 0 0 15px 15px;
+	-moz-background-clip: padding;
+	border-radius: 0 0 15px 15px;
+	background-clip: padding-box;
+	background: rgba(0, 0, 0, 0);
 }
 
 .loading .finger-1 {
@@ -93,105 +184,6 @@
 	animation: finger-4-animation-i 2s infinite ease-out;
 }
 
-.loading .finger-item {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	-webkit-border-radius: 6px 6px 8px 8px;
-	-webkit-background-clip: padding-box;
-	-moz-border-radius: 6px 6px 8px 8px;
-	-moz-background-clip: padding;
-	border-radius: 6px 6px 8px 8px;
-	background-clip: padding-box;
-	background: #fff;
-}
-
-.loading .finger-item span {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: auto;
-	padding: 5px 5px 0 5px;
-}
-
-.loading .finger-item span:after,
-.loading .finger-item span:before {
-	content: "";
-	position: relative;
-	display: block;
-	margin: 0 0 2px 0;
-	width: 100%;
-	height: 2px;
-	background: #231f20;
-}
-
-.loading .finger-item i {
-	position: absolute;
-	left: 3px;
-	bottom: 3px;
-	width: 14px;
-	height: 14px;
-	-webkit-border-radius: 10px 10px 7px 7px;
-	-webkit-background-clip: padding-box;
-	-moz-border-radius: 10px 10px 7px 7px;
-	-moz-background-clip: padding;
-	border-radius: 10px 10px 7px 7px;
-	background-clip: padding-box;
-	background: #231f20;
-}
-
-.loading .last-finger {
-	position: relative;
-	float: left;
-	width: 24px;
-	height: 100%;
-	overflow: hidden;
-}
-
-.loading .last-finger-item {
-	position: absolute;
-	right: 0;
-	top: 32px;
-	width: 110%;
-	height: 20px;
-	-webkit-border-radius: 0 5px 14px 0;
-	-webkit-background-clip: padding-box;
-	-moz-border-radius: 0 5px 14px 0;
-	-moz-background-clip: padding;
-	border-radius: 0 5px 14px 0;
-	background-clip: padding-box;
-	background: rgb(255, 255, 255);
-	-webkit-animation: finger-5-animation 2s infinite linear;
-	animation: finger-5-animation 2s infinite linear;
-}
-
-.loading .last-finger-item i {
-	position: absolute;
-	left: 0;
-	top: -8px;
-	width: 22px;
-	height: 8px;
-	background: rgb(255, 255, 255);
-	overflow: hidden;
-}
-
-.loading .last-finger-item i:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 34px;
-	height: 20px;
-	-webkit-border-radius: 0 0 15px 15px;
-	-webkit-background-clip: padding-box;
-	-moz-border-radius: 0 0 15px 15px;
-	-moz-background-clip: padding;
-	border-radius: 0 0 15px 15px;
-	background-clip: padding-box;
-	background: rgb(255, 255, 255);
-}
-
 @-webkit-keyframes finger-1-animation {
 	0% {
 		padding: 12px 0 5px 0;
@@ -212,7 +204,6 @@
 		padding: 12px 0 5px 0;
 	}
 }
-
 @keyframes finger-1-animation {
 	0% {
 		padding: 12px 0 5px 0;
@@ -233,7 +224,6 @@
 		padding: 12px 0 5px 0;
 	}
 }
-
 @-webkit-keyframes finger-1-animation-span {
 	0% {
 		top: 0;
@@ -254,7 +244,6 @@
 		top: 0;
 	}
 }
-
 @keyframes finger-1-animation-span {
 	0% {
 		top: 0;
@@ -275,7 +264,6 @@
 		top: 0;
 	}
 }
-
 @-webkit-keyframes finger-1-animation-i {
 	0% {
 		bottom: 3px;
@@ -338,7 +326,6 @@
 		background-clip: padding-box;
 	}
 }
-
 @keyframes finger-1-animation-i {
 	0% {
 		bottom: 3px;
@@ -401,7 +388,6 @@
 		background-clip: padding-box;
 	}
 }
-
 @-webkit-keyframes finger-2-animation {
 	0% {
 		padding: 6px 0 2px 0;
@@ -422,7 +408,6 @@
 		padding: 6px 0 2px 0;
 	}
 }
-
 @keyframes finger-2-animation {
 	0% {
 		padding: 6px 0 2px 0;
@@ -443,7 +428,6 @@
 		padding: 6px 0 2px 0;
 	}
 }
-
 @-webkit-keyframes finger-2-animation-span {
 	0% {
 		top: 0;
@@ -464,7 +448,6 @@
 		top: 0;
 	}
 }
-
 @keyframes finger-2-animation-span {
 	0% {
 		top: 0;
@@ -485,7 +468,6 @@
 		top: 0;
 	}
 }
-
 @-webkit-keyframes finger-2-animation-i {
 	0% {
 		bottom: 3px;
@@ -548,7 +530,6 @@
 		background-clip: padding-box;
 	}
 }
-
 @keyframes finger-2-animation-i {
 	0% {
 		bottom: 3px;
@@ -611,13 +592,12 @@
 		background-clip: padding-box;
 	}
 }
-
 @-webkit-keyframes finger-3-animation {
 	0% {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 	28% {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 	37% {
 		padding: 0 0 12px 0;
@@ -626,19 +606,18 @@
 		padding: 0 0 12px 0;
 	}
 	49% {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 	100% {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 }
-
 @keyframes finger-3-animation {
 	0% {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 	28% {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 	37% {
 		padding: 0 0 12px 0;
@@ -647,13 +626,12 @@
 		padding: 0 0 12px 0;
 	}
 	49% {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 	100% {
-		padding: 0;
+		padding: 0 0 0 0;
 	}
 }
-
 @-webkit-keyframes finger-3-animation-span {
 	0% {
 		top: 0;
@@ -674,7 +652,6 @@
 		top: 0;
 	}
 }
-
 @keyframes finger-3-animation-span {
 	0% {
 		top: 0;
@@ -695,7 +672,6 @@
 		top: 0;
 	}
 }
-
 @-webkit-keyframes finger-3-animation-i {
 	0% {
 		bottom: 3px;
@@ -758,7 +734,6 @@
 		background-clip: padding-box;
 	}
 }
-
 @keyframes finger-3-animation-i {
 	0% {
 		bottom: 3px;
@@ -821,7 +796,6 @@
 		background-clip: padding-box;
 	}
 }
-
 @-webkit-keyframes finger-4-animation {
 	0% {
 		padding: 8px 0 3px 0;
@@ -842,7 +816,6 @@
 		padding: 8px 0 3px 0;
 	}
 }
-
 @keyframes finger-4-animation {
 	0% {
 		padding: 8px 0 3px 0;
@@ -863,7 +836,6 @@
 		padding: 8px 0 3px 0;
 	}
 }
-
 @-webkit-keyframes finger-4-animation-span {
 	0% {
 		top: 0;
@@ -884,7 +856,6 @@
 		top: 0;
 	}
 }
-
 @keyframes finger-4-animation-span {
 	0% {
 		top: 0;
@@ -905,7 +876,6 @@
 		top: 0;
 	}
 }
-
 @-webkit-keyframes finger-4-animation-i {
 	0% {
 		bottom: 3px;
@@ -968,7 +938,6 @@
 		background-clip: padding-box;
 	}
 }
-
 @keyframes finger-4-animation-i {
 	0% {
 		bottom: 3px;
@@ -1031,7 +1000,6 @@
 		background-clip: padding-box;
 	}
 }
-
 @-webkit-keyframes finger-5-animation {
 	0% {
 		top: 32px;
@@ -1042,8 +1010,7 @@
 		-moz-background-clip: padding;
 		border-radius: 0 5px 14px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(0);
-		transform: rotate(0);
+		transform: rotate(0deg);
 	}
 	34% {
 		top: 32px;
@@ -1054,8 +1021,7 @@
 		-moz-background-clip: padding;
 		border-radius: 0 5px 14px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(0);
-		transform: rotate(0);
+		transform: rotate(0deg);
 	}
 	43% {
 		top: 20px;
@@ -1066,7 +1032,6 @@
 		-moz-background-clip: padding;
 		border-radius: 0 8px 20px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(-12deg);
 		transform: rotate(-12deg);
 	}
 	50% {
@@ -1078,7 +1043,6 @@
 		-moz-background-clip: padding;
 		border-radius: 0 8px 20px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(-12deg);
 		transform: rotate(-12deg);
 	}
 	60% {
@@ -1090,8 +1054,7 @@
 		-moz-background-clip: padding;
 		border-radius: 0 5px 14px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(0);
-		transform: rotate(0);
+		transform: rotate(0deg);
 	}
 	100% {
 		top: 32px;
@@ -1102,11 +1065,9 @@
 		-moz-background-clip: padding;
 		border-radius: 0 5px 14px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(0);
-		transform: rotate(0);
+		transform: rotate(0deg);
 	}
 }
-
 @keyframes finger-5-animation {
 	0% {
 		top: 32px;
@@ -1117,8 +1078,7 @@
 		-moz-background-clip: padding;
 		border-radius: 0 5px 14px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(0);
-		transform: rotate(0);
+		transform: rotate(0deg);
 	}
 	34% {
 		top: 32px;
@@ -1129,8 +1089,7 @@
 		-moz-background-clip: padding;
 		border-radius: 0 5px 14px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(0);
-		transform: rotate(0);
+		transform: rotate(0deg);
 	}
 	43% {
 		top: 20px;
@@ -1141,7 +1100,6 @@
 		-moz-background-clip: padding;
 		border-radius: 0 8px 20px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(-12deg);
 		transform: rotate(-12deg);
 	}
 	50% {
@@ -1153,7 +1111,6 @@
 		-moz-background-clip: padding;
 		border-radius: 0 8px 20px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(-12deg);
 		transform: rotate(-12deg);
 	}
 	60% {
@@ -1165,8 +1122,7 @@
 		-moz-background-clip: padding;
 		border-radius: 0 5px 14px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(0);
-		transform: rotate(0);
+		transform: rotate(0deg);
 	}
 	100% {
 		top: 32px;
@@ -1177,8 +1133,7 @@
 		-moz-background-clip: padding;
 		border-radius: 0 5px 14px 0;
 		background-clip: padding-box;
-		-webkit-transform: rotate(0);
-		transform: rotate(0);
+		transform: rotate(0deg);
 	}
 }
 

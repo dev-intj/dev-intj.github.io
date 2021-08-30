@@ -9,17 +9,17 @@ const Home = () => {
     return (
         <Layout>
             <div className="home">
+                <div className="homeanimbg"></div>
                 <div className="columns is-gapless">
                     <div className="column">
-                    <Header />
+                        <Header />
                     </div>
                     <div className="column">
-                    <HeaderF />
+                        <HeaderF />
                     </div>
-                
-                </div> 
-                <Skills />
+                </div>
             </div>
+            <Skills />
         </Layout>
     )
 }

@@ -11,7 +11,7 @@ const Header = () => {
     const { t, i18n } = useTranslation();
     const data = t('data', { returnObjects: true });
     return (
-        <section className="section is-halfhalf is-header has-text-centered ">
+        <section className="section is-halfhalf is-header">
                 <div className="container">
                 <div className="columns is-centered">
                     <div className="column is-three-fifths">
@@ -20,6 +20,7 @@ const Header = () => {
                         <h2 className="subtitle is-size-5-desktop ">
                             {data.header.header_footer_subtitle}
                         </h2>
+                        
                         {default_data.social_media.map((social, index) => (
                         <a className="button socialmedia is-dark is-medium btn-ghost" target="_blank" href={social.link} key={social.name}>
                             <span className="icon">
