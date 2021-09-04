@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../websiteData/data";
 import { IconContext } from "react-icons";
+import default_data from '../assets/locales/exports';
 
 const Footer = () => {
     return (
@@ -17,7 +18,7 @@ const Footer = () => {
                         </div>
                         <div className="column">
 
-                            {data.social_media.map((social, index) => (
+                            {default_data.social_media.map((social, index) => (
                                 <a className="button socialmedia is-white is-medium btn-ghost" target="_blank" href={social.link} key={social.name}>
                                     <span className="icon">
                                         <IconContext.Provider value={{ size: 28 }}>

@@ -121,7 +121,9 @@
 	-moz-background-clip: padding;
 	border-radius: 0 0 15px 15px;
 	background-clip: padding-box;
-	background: rgba(0, 0, 0, 0);
+	//transparent shitness
+	background-color: transparent;
+	color:transparent;
 }
 
 .loading .finger-1 {

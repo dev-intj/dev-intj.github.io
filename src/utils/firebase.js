@@ -1,6 +1,6 @@
-import firebase from 'firebase/app';
-import 'firebase/analytics';
-import 'firebase/database';
+import firebase from "firebase/app";
+import "firebase/analytics";
+import "firebase/database";
 
 var firebaseConfig = {
   apiKey: "AIzaSyDr_8q2Wuzbp3h4MzB_MGOc2YCkbpKxMJw",
@@ -10,7 +10,7 @@ var firebaseConfig = {
   storageBucket: "personalwebsite-6935f.appspot.com",
   messagingSenderId: "330896932366",
   appId: "1:330896932366:web:cf74772a7918c8b33dc65f",
-  measurementId: "G-STZCYG8TV7"
+  measurementId: "G-STZCYG8TV7",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
