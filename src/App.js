@@ -1,6 +1,6 @@
 import { hot } from "react-hot-loader/root";
 
-import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 //sem and seo management
 import { Helmet } from "react-helmet";
@@ -27,11 +27,11 @@ function App() {
       </Helmet>
 
       <Router>
-        <ScrollToTop>
-          <Switch>
-            <Route exact path="/" component={() => <Home />} />
-          </Switch>
-        </ScrollToTop>
+        {/*<ScrollToTop>*/}
+          <Routes>
+            <Route path="/" element={<Home/>} />
+          </Routes>
+        {/*</ScrollToTop>*/}
       </Router>
     </div>
   );
