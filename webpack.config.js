@@ -11,6 +11,17 @@ module.exports = {
       index: "./index.html",
     },
   },
+  resolve: {
+    fallback: {
+      "path": path.resolve("path-browserify"),
+      "util": path.resolve("util/"),
+      "buffer": path.resolve("buffer/"),
+      "assert": path.resolve("assert/"),
+      "constants": path.resolve("constants-browserify"),
+      "stream": path.resolve("stream-browserify"),
+      "os": path.resolve("os-browserify/browser")
+    }
+  },
   output: {
     path: path.resolve(__dirname, "build/"),
     publicPath: "/",

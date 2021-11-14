@@ -20,47 +20,7 @@ const Navbar = () => {
 
   return (
     <div className="react-navbar">
-      <nav className="navbar is-white is-fixed-top">
-        <div className="container">
-          <div className="navbar-brand">
-            <div
-              className="navbar-burger"
-              ref={navburger}
-              onClick={showmenu}
-              data-target="navbarExampleTransparentExample"
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-
-          <div
-            id="navbarExampleTransparentExample"
-            ref={navmenu}
-            className="navbar-menu"
-          >
-            <div className="navbar-start"></div>
-
-            <div className="navbar-end">
-              <div className="navbar-item">
-                <NavLink to="/" className="navbar-item">
-                  Home
-                </NavLink>
-                <NavLink to="/about" className="navbar-item">
-                  About
-                </NavLink>
-                <NavLink to="/work" className="navbar-item">
-                  Projects
-                </NavLink>
-                <NavLink to="/contact" className="navbar-item">
-                  Contact
-                </NavLink>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+      
     </div>
   );
 };

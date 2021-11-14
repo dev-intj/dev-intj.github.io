@@ -1,14 +1,2 @@
-// Import only what you need from Bulma
 @import "../../../node_modules/bulma/bulma.sass";
-
-// setting up color variables
-@import "portfolioCustom";
-//custom
-@import "menu";
-@import "hands";
-@import "projects";
-@import "section";
-@import "buttons";
-@import "form";
-@import "nav";
-@import "homePage";
+@import "../../../node_modules/react-loading-skeleton/dist/skeleton.css";

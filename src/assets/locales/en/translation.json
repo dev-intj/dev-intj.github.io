@@ -3,11 +3,11 @@
 
     
     "header": {
-        "header_title": "A upcoming Full Stack Software Engineer",
+        "header_title": "An upcoming Full Stack Software Engineer",
         "header_subtitle": "I like clean code and beautifully designed things.",
-        "header_footer_title": "Hi, I’m Christos",
+        "header_footer_title": "Hi, I’m Christos.",
         "header_footer_subtitle": "I'm a UI/UX designer aiming to be a Full Stack Web Developer"
-    },
+    },  
     "skills": [
         {
             "title": "Back-end Developer test",

@@ -1,26 +1,31 @@
 import React from "react";
-import Skills from "../components/Skills";
-
-import Header from "../components/HomePage/Header";
-import HeaderF from "../components/HomePage/HeaderFooter";
-
+import Skeleton from 'react-loading-skeleton'
 import Layout from "../components/layout";
-const Home = () => {
-  return (
-    <Layout>
-      <div className="home">
-        <div className="homeanimbg"></div>
-        <div className="columns is-gapless">
-          <div className="column">
-            <Header />
-          </div>
-          <div className="column">
-            <HeaderF />
-          </div>
+
+import { useRef } from 'react'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
+import { WaveMaterial } from '../utils/waveMaterial'
+class Home extends React.Component {
+  hit() {
+    document.addEventListener('keydown', (event) => {
+      if(event.keyCode == 32){
+        // if space bar is pressed
+        
+      }
+    }, false);
+  };
+
+  componentDidMount(){
+    this.hit();
+  }
+  
+  render (){
+    return (
+      <Layout>
+        <div className="home">
         </div>
-      </div>
-      <Skills />
-    </Layout>
-  );
+      </Layout>
+    )
+  };
 };
 export default Home;
