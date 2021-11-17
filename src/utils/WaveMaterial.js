@@ -1,7 +1,7 @@
-import * as THREE from 'three'
-import { extend } from '@react-three/fiber'
-import guid from 'short-uuid'
-import glsl from 'babel-plugin-glsl/macro'
+import * as THREE from 'three';
+import { extend } from '@react-three/fiber';
+import guid from 'short-uuid';
+import glsl from 'babel-plugin-glsl/macro';
 
 // This shader is from Bruno Simons Threejs-Journey: https://threejs-journey.xyz
 class WaveMaterial extends THREE.ShaderMaterial {
@@ -28,9 +28,9 @@ class WaveMaterial extends THREE.ShaderMaterial {
       uniform vec3 colorEnd;
       varying vec2 vUv;
       void main() {
-        vec2 displacedUv = vUv + cnoise3(vec3(vUv * 10.0, time * 0.1));
-        float strength = cnoise3(vec3(displacedUv * 10.0, time * 0.2));
-        float outerGlow = distance(vUv, vec2(0.5)) * 2.0 - 0.5;
+        vec2 displacedUv = vUv + cnoise3(vec3(vUv * 5.0, time * 0.1));
+        float strength = cnoise3(vec3(displacedUv * 5.0, time * 0.2));
+        float outerGlow = distance(vUv, vec2(0.5)) * 1.0 - 0.5;
         strength += outerGlow;
         strength += step(-0.2, strength) * 0.6;
         strength = clamp(strength, 0.0, 1.0);
