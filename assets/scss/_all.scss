@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-list-projects {
+    width: 100vw;
+}
+
+.slick-track {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    overflow: visible;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
