@@ -1,0 +1,422 @@
+$light-blue: hsl(204, 86%, 53%);
+
+.projects {
+  .button.is-primary.is-outlined.is-medium {
+    padding: 1.25em 2em;
+    font-weight: 400;
+    border-width: 2px;
+    margin-top: 2rem;
+  }
+
+  .project-grid {
+    padding: 2rem 0 4rem;
+
+    figure {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+
+      img.project-thumb {
+        transform: scale(1);
+        transition: 0.25s ease-in-out;
+      }
+
+      figcaption {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0rem 3rem;
+        color: #fff;
+        z-index: 1;
+
+        .tags {
+          margin: 0 auto 0.6rem;
+
+          span.tag {
+            font-weight: 600;
+          }
+        }
+
+        h1.title {
+          color: #fff;
+          margin-bottom: 1.8rem;
+          font-weight: 500;
+        }
+
+        a.button.is-primary.is-outlined.is-rounded {
+          margin: 0 auto;
+          font-size: 18px;
+          padding: 1.2rem;
+          font-weight: 400;
+          border-width: 2px;
+          color: white;
+
+          span.icon {
+            margin-top: 4px;
+            margin-left: 0px;
+
+            svg {
+              width: 8px;
+            }
+          }
+        }
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+
+        .overlay {
+          opacity: 1;
+        }
+
+        figcaption {
+          opacity: 1;
+        }
+      }
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: 0.45s ease-in-out;
+      background-color: #231f20;
+    }
+
+    figcaption {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: 0.45s ease-in-out;
+    }
+  }
+}
+
+.projects-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.portfoflio-project {
+  width: calc(33.33% - 60px);
+  margin-bottom: 102px;
+
+  >div {
+    display: block;
+    margin: 0 auto;
+    width: 360px;
+    max-width: 100%;
+  }
+}
+
+.portfoflio-project-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.065em;
+  margin-bottom: 0.4em;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #231f20;
+
+  a {
+    color: #231f20;
+  }
+
+  a:hover {
+    color: $light-blue;
+  }
+}
+
+.portfoflio-project-meta {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  color: #e5e4e2;
+  font-size: 10px;
+}
+
+.portfoflio-project-thumbnail {
+  display: block;
+  margin-bottom: 27px;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  &:hover {
+    .portfoflio-project-thumbnail-overlay {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+.portfoflio-project-thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  opacity: 0;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  background-color: rgba(40, 40, 40, 0.92);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.pf-p-full-size-link {
+  pointer-events: all;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.pf-p-project-link {
+  pointer-events: all;
+  display: block;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  opacity: 1;
+  transition: all 0.3s ease;
+  z-index: 3;
+  font-size: 1.5rem;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  img {
+    width: 18px;
+  }
+}
+
+.pf-p-view-info {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  display: block;
+  color: #e5e4e2;
+  font-size: 14px;
+  font-weight: 700;
+  pointer-events: all;
+  position: relative;
+  z-index: 1;
+}
+
+.pf-p-portfoflio-additionals {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+}
+
+.pf-p-portfoflio-additional {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.is-page-title {
+  .hero-body {
+    img.is-skill-icon {
+      margin: 2.5rem auto 0;
+      height: 56px;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .projects {
+    .project-grid {
+      padding-top: 4rem;
+
+      figure {
+        figcaption {
+          padding: 0rem 2rem;
+        }
+      }
+    }
+  }
+
+  .is-page-title {
+    .hero-body {
+      img.is-skill-icon {
+        margin: 3rem auto 0;
+        height: 64px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1399px) {
+  .projects-list {
+    padding: 0 60px;
+  }
+
+  .portfolio-projects {
+    .container {
+      padding: 0 51px;
+    }
+  }
+}
+
+@media (max-width: 1279px) {
+  .portfoflio-project {
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  .projects-list {
+    padding: 0;
+  }
+
+  .portfolio-projects {
+    .container {
+      padding: 0 20px;
+      margin-bottom: 92px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .portfoflio-project {
+    width: 360px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 65px;
+    padding: 0;
+  }
+
+  .projects-list {
+    flex-flow: column wrap;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 415px) {
+  .portfoflio-project-thumbnail {
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .is-page-title {
+    .hero-body {
+      img.is-skill-icon {
+        height: 72px;
+      }
+    }
+  }
+}
+
+.pf-p-project-view {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  pointer-events: all;
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transition: all 0.3s ease;
+  z-index: 3;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  img {
+    width: 18px;
+  }
+
+  svg {
+    position: relative;
+  }
+}
+
+.pf-p-portfoflio-additional {
+  svg {
+    position: relative;
+  }
+}
+
+.pf-p-project-link {
+  svg {
+    position: relative;
+  }
+}
+
+$netflix-thumb: rgba(184, 8, 8, 0.75);
+$ragnarok-thumb: rgba(55, 137, 130, 0.75);
+$dorito-thumb: rgba(106, 84, 71, 0.75);
+$wallpapers-thumb: rgba(12, 12, 12, 0.75);
+
+//different colors for different projects
+.portfoflio-project-thumbnail-overlay {
+  &#netflix {
+    background-color: $netflix-thumb;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: black;
+    }
+  }
+
+  &#ragnarok {
+    background-color: $ragnarok-thumb;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: black;
+    }
+  }
+
+  &#dorito {
+    background-color: $dorito-thumb;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: black;
+    }
+  }
+
+  &#wallpapers {
+    background-color: $wallpapers-thumb;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: #4eb1f2;
+    }
+  }
+}

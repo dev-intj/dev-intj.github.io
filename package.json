@@ -1,53 +1,41 @@
 {
-  "name": "dev-intj.github.io",
-  "version": "3.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "name": "next-js-template",
+  "version": "0.0.0",
+  "description": "A next js template with tailwind and webpack",
+  "private": false,
+  "engines": {
+    "node": "16"
+  },
   "scripts": {
-    "start": "webpack serve --config webpack.config.js --history-api-fallback --mode=development",
-    "build": "webpack build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dev-intj/dev-intj.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dev-intj/dev-intj.github.io/issues"
-  },
-  "homepage": "https://github.com/dev-intj/dev-intj.github.io#readme",
   "dependencies": {
-    "bulma": "^0.9.3",
-    "firebase": "^8.8.1",
-    "i18next": "^20.3.5",
-    "i18next-browser-languagedetector": "^6.1.2",
-    "i18next-http-backend": "^1.3.0",
-    "react": "^17.0.2",
-    "react-bulma-components": "^4.0.7",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-hot-loader": "^4.13.0",
-    "react-i18next": "^11.11.4",
-    "react-icons": "^4.2.0",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0"
+    "@svgr/webpack": "^6.1.1",
+    "bulma": "^0.9.4",
+    "clsx": "^1.1.1",
+    "firebase": "^9.19.1",
+    "next": "12.0.7",
+    "next-compose-plugins": "^2.2.1",
+    "next-themes": "^0.0.15",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.8.0",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.5",
+    "sass": "^1.60.0",
+    "webp-loader": "^0.6.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.8",
-    "@babel/preset-react": "^7.14.5",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^6.2.0",
-    "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.3.2",
-    "sass": "^1.37.0",
-    "sass-loader": "^12.1.0",
-    "style-loader": "^3.2.1",
-    "webpack": "^5.47.1",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "@babel/core": "^7.18.10",
+    "@types/react": "^18.0.17",
+    "autoprefixer": "^10.4.0",
+    "gray-matter": "^4.0.3",
+    "postcss": "^8.4.4",
+    "scss": "^0.2.4",
+    "tailwindcss": "^2.2.19"
   }
 }
