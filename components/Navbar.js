@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import Link from 'next/link';
+import Link from "next/link";
 import { Button } from "./Button";
 
 //do I need to import it twice?
@@ -45,24 +45,20 @@ const Navbar = () => {
 
             <div className="navbar-end">
               <div className="navbar-item">
+                <Button className="navbar-item" href="/" label={"Home"} />
+                <Button className="navbar-item" href="/About" label={"About"} />
+                <Button className="navbar-item" href="/Work" label={"Work"} />
                 <Button
                   className="navbar-item"
-                  href="/" label={"Home"} />
-                <Button
-                  className="navbar-item"
-                  href="/About" label={"About"} />
-                <Button
-                  className="navbar-item"
-                  href="/Work" label={"Work"} />
-                <Button
-                  className="navbar-item"
-                  href="/Contact" label={"Contact"} />
+                  href="/Contact"
+                  label={"Contact"}
+                />
               </div>
             </div>
           </div>
         </div>
-      </nav >
-    </div >
+      </nav>
+    </div>
   );
 };
 export default Navbar;

@@ -72,6 +72,7 @@
 	font-weight: 400;
 	height: auto;
 }
+
 .field:not(:last-child) {
 	margin-bottom: 0.75rem;
 }
@@ -175,16 +176,16 @@
 	justify-content: flex-start;
 }
 
-.field.is-grouped > .control {
+.field.is-grouped>.control {
 	flex-shrink: 0;
 }
 
-.field.is-grouped > .control:not(:last-child) {
+.field.is-grouped>.control:not(:last-child) {
 	margin-bottom: 0;
 	margin-right: 0.75rem;
 }
 
-.field.is-grouped > .control.is-expanded {
+.field.is-grouped>.control.is-expanded {
 	-webkit-box-flex: 1;
 	flex-grow: 1;
 	flex-shrink: 1;
@@ -204,8 +205,8 @@
 	flex-wrap: wrap;
 }
 
-.field.is-grouped.is-grouped-multiline > .control:last-child,
-.field.is-grouped.is-grouped-multiline > .control:not(:last-child) {
+.field.is-grouped.is-grouped-multiline>.control:last-child,
+.field.is-grouped.is-grouped-multiline>.control:not(:last-child) {
 	margin-bottom: 0.75rem;
 }
 
@@ -217,7 +218,8 @@
 	margin-bottom: 0;
 }
 
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 769px),
+print {
 	.field.is-horizontal {
 		display: -webkit-box;
 		display: flex;
@@ -234,7 +236,8 @@
 	}
 }
 
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 769px),
+print {
 	.field-label {
 		flex-basis: 0;
 		-webkit-box-flex: 1;
@@ -243,17 +246,21 @@
 		margin-right: 1.5rem;
 		text-align: right;
 	}
+
 	.field-label.is-small {
 		font-size: 0.75rem;
 		padding-top: 0.375em;
 	}
+
 	.field-label.is-normal {
 		padding-top: 0.375em;
 	}
+
 	.field-label.is-medium {
 		font-size: 1.25rem;
 		padding-top: 0.375em;
 	}
+
 	.field-label.is-large {
 		font-size: 1.5rem;
 		padding-top: 0.375em;
@@ -264,7 +271,8 @@
 	margin-bottom: 0;
 }
 
-@media screen and (min-width: 769px), print {
+@media screen and (min-width: 769px),
+print {
 	.field-body {
 		display: -webkit-box;
 		display: flex;
@@ -273,17 +281,21 @@
 		flex-grow: 5;
 		flex-shrink: 1;
 	}
+
 	.field-body .field {
 		margin-bottom: 0;
 	}
-	.field-body > .field {
+
+	.field-body>.field {
 		flex-shrink: 1;
 	}
-	.field-body > .field:not(.is-narrow) {
+
+	.field-body>.field:not(.is-narrow) {
 		-webkit-box-flex: 1;
 		flex-grow: 1;
 	}
-	.field-body > .field:not(:last-child) {
+
+	.field-body>.field:not(:last-child) {
 		margin-right: 0.75rem;
 	}
 }

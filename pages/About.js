@@ -2,7 +2,7 @@ import React from "react";
 import PastCompanies from "../components/PastCompanies";
 import data from "../data";
 import Layout from "../components/layout";
-import Link from 'next/link';
+import Link from "next/link";
 
 const About = () => {
   return (

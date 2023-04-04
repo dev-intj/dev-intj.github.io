@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaTimes, FaUndoAlt } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import firebase from "@components/utils/firebase";
-import Link from 'next/link';
+import Link from "next/link";
 
 const Contact = () => {
   const [formData, setFormData] = useState({});

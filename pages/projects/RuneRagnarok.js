@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 import RuneRagnarokimage1 from "../../assets/images/projects/runeragnarok/screenshot1.png";
 import RuneRagnarokimage2 from "../../assets/images/projects/runeragnarok/whichgodareyou.png";
 import RuneRagnarokimage3 from "../../assets/images/projects/runeragnarok/entertowinakey.png";
-import Link from 'next/link';
+import Link from "next/link";
 
 const RuneRagnarok = () => {
   return (

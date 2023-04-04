@@ -1,4 +1,5 @@
 $font-color: #0a0a0a;
+
 .navbar {
     .navbar-item {
         a {
@@ -14,6 +15,7 @@ $font-color: #0a0a0a;
                 opacity: 0;
                 transition: 0.5s;
             }
+
             &:after {
                 position: absolute;
                 content: "";
@@ -26,6 +28,7 @@ $font-color: #0a0a0a;
                 opacity: 0;
                 transition: 0.5s;
             }
+
             &:hover {
                 color: black;
                 background-color: white;
@@ -37,6 +40,7 @@ $font-color: #0a0a0a;
                     left: 0px;
                     top: 0px;
                 }
+
                 &:after {
                     width: 100%;
                     height: 100%;
@@ -45,6 +49,7 @@ $font-color: #0a0a0a;
                     bottom: 0px;
                 }
             }
+
             &.active {
                 color: black;
                 font-weight: 500;

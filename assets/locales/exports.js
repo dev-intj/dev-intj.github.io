@@ -24,51 +24,54 @@ import SoakCom from "../../../assets/images/past-companies/soak-logo.jpg";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 //Stages
-import { FaCircleNotch, FaEdit, FaCheckSquare, FaFolderOpen } from "react-icons/fa";
+import {
+  FaCircleNotch,
+  FaEdit,
+  FaCheckSquare,
+  FaFolderOpen,
+} from "react-icons/fa";
 
 export default {
+  social_media: [
+    {
+      name: "Github",
+      icon: <FaGithub />,
+      link: "https://github.com/dev-intj",
+    },
+    {
+      name: "Instagram",
+      icon: <FaInstagram />,
+      link: "https://www.instagram.com/dev_intj/",
+    },
+    {
+      name: "Linkedin",
+      icon: <FaLinkedin />,
+      link: "https://www.linkedin.com/in/christos-dematas-a50452169/",
+    },
+    {
+      name: "Twitter",
+      icon: <FaTwitter />,
+      link: "https://twitter.com/dev_intj",
+    },
+  ],
 
-    social_media: [
-        {
-            name: "Github",
-            icon: <FaGithub />,
-            link: "https://github.com/dev-intj"
-        },
-        {
-            name: "Instagram",
-            icon: <FaInstagram />,
-            link: "https://www.instagram.com/dev_intj/"
-        },
-        {
-            name: "Linkedin",
-            icon: <FaLinkedin />,
-            link: "https://www.linkedin.com/in/christos-dematas-a50452169/"
-        },
-        {
-            name: "Twitter",
-            icon: <FaTwitter />,
-            link: "https://twitter.com/dev_intj"
-        }
-    ],
-
-
-    //Stages
-    stages: [
-        {
-            icon: <FaCircleNotch />,
-            description: "Unfinished - Post Poned"
-        },
-        {
-            icon: <FaEdit />,
-            description: "Working on it"
-        },
-        {
-            icon: <FaCheckSquare />,
-            description: "Finished"
-        },
-        {
-            icon: <FaFolderOpen />,
-            description: "Source Code Available"
-        }
-    ]
-}
+  //Stages
+  stages: [
+    {
+      icon: <FaCircleNotch />,
+      description: "Unfinished - Post Poned",
+    },
+    {
+      icon: <FaEdit />,
+      description: "Working on it",
+    },
+    {
+      icon: <FaCheckSquare />,
+      description: "Finished",
+    },
+    {
+      icon: <FaFolderOpen />,
+      description: "Source Code Available",
+    },
+  ],
+};

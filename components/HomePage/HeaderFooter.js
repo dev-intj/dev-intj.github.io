@@ -1,6 +1,6 @@
 import React from "react";
-import data from '@data/index';
-import Link from 'next/link';
+import data from "@data/index";
+import Link from "next/link";
 
 const HeaderF = () => {
   return (

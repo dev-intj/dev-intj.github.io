@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
 import data from "../data";
-import Link from 'next/link';
+import Link from "next/link";
 
 const Prototype = () => {
   return (

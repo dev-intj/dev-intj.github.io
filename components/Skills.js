@@ -12,9 +12,7 @@ const Skills = () => {
               <div className="columns is-centered">
                 {data3.skills.map((skill, index) => (
                   <div className="column is-page-title" key={skill.title}>
-                    <div className="hero-body">
-                      {skill.img}
-                    </div>
+                    <div className="hero-body">{skill.img}</div>
                     <h1 className="title is-size-4 is-spaced">{skill.title}</h1>
                     <p>{skill.para}</p>
                     <p className="list-title has-text-dark has-text-weight-normal">

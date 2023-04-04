@@ -8,7 +8,11 @@ const PastCompanies = () => {
         <div className="columns is-mobile is-vcentered">
           {data.past_companies.map((company, index) => (
             <div className="column" key={index}>
-              <img className="Companies" src={company.img.src} alt={company.alt} />
+              <img
+                className="Companies"
+                src={company.img.src}
+                alt={company.alt}
+              />
             </div>
           ))}
         </div>
