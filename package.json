@@ -1,46 +1,30 @@
 {
-  "name": "next-js-template",
-  "version": "0.0.0",
-  "description": "A next js template with tailwind and webpack",
-  "private": false,
-  "engines": {
-    "node": "16"
-  },
+  "name": "loans",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\"",
-    "lint": "next lint",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@svgr/webpack": "^6.1.1",
-    "bulma": "^0.9.4",
-    "clsx": "^1.1.1",
-    "firebase": "^9.19.1",
-    "next": "12.0.7",
-    "next-compose-plugins": "^2.2.1",
-    "next-themes": "^0.0.15",
-    "prettier": "^2.8.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.8.0",
-    "react-markdown": "^5.0.3",
-    "react-syntax-highlighter": "^15.4.5",
-    "sass": "^1.60.0",
-    "webp-loader": "^0.6.0",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.18.10",
-    "@types/react": "^18.0.17",
-    "autoprefixer": "^10.4.0",
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
-    "gray-matter": "^4.0.3",
-    "postcss": "^8.4.4",
-    "scss": "^0.2.4",
-    "tailwindcss": "^2.2.19"
+    "@fullpage/react-fullpage": "^0.1.40",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "animejs": "^3.2.1",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.12",
+    "next": "13.4.12",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-curved-text": "^2.0.2",
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.5.2",
+    "react-scroll-parallax": "^3.4.2",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
   }
 }
