@@ -137,7 +137,7 @@ const ExperienceSection = () => {
           </div>
         </div>
       </div>
-      <div className="icon-scroll" />
+      <div className="icon-scroll hidden md:block" />
     </div>
   );
 };
