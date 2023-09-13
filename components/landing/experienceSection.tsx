@@ -82,8 +82,8 @@ const experiencesDat: any[] = [
 const ExperienceSection = () => {
   return (
     <div className="w-screen h-screen relative">
-      <div className="flex flex-row items-center justify-center h-full text-black">
-        <div className="flex flex-col h-[80%] w-[30%]">
+      <div className="flex flex-col md:flex-row items-center justify-center h-full text-black">
+        <div className="flex flex-col md:h-[80%] md:w-[30%] h-full">
           <div className="h-full bg-[#85989B] p-8">
             <h1 className="my-2 text-center text-2xl">
               Education
@@ -100,9 +100,9 @@ const ExperienceSection = () => {
               )}
             </div>
           </div>
-          <div className="h-[50%] p-8">
+          <div className="hidden md:block h-[50%] p-8">
             <h1>Unknown</h1>
-            <div className="flex flex-wrap flex-row gap-8 pt-4 hidden">
+            <div className="hidden md:flex flex-wrap flex-row gap-8 pt-4">
               <div>
                 <Skill name={"React"} />
                 <Skill name={"React-Native"} />
@@ -116,8 +116,8 @@ const ExperienceSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col -ml-4 h-full w-[30%] pt-56 text-black">
-          <div className="h-[80%] shadow-2xl">
+        <div className="flex flex-col md:-ml-4 h-full w-full md:w-[30%] md:pt-56 text-black">
+          <div className="h-full md:h-[80%] shadow-2xl">
             <div className="h-full bg-[#DCDBD9] p-8">
               <h1 className="my-2 text-center text-2xl">
                 EXPERIENCE
