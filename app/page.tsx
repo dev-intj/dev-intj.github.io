@@ -16,7 +16,6 @@ const Fullpage = () => {
       parallax={false}
       navigation={true}
       credits={{ enabled: false }}
-      responsiveWidth={768}
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
