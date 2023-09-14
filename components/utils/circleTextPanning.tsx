@@ -2,21 +2,21 @@
 
 import { useMemo } from "react";
 import ReactCurvedText from "react-curved-text";
+import { useWindowSize } from "./useWindowSize";
 
 const CircleTextPanning = ({
   title,
   textColor,
   extraMainClasses,
 }: any) => {
+  const size = useWindowSize();
+
   const num = useMemo(() => {
-    if (
-      typeof window !== "undefined" &&
-      window?.innerWidth < 960
-    ) {
+    if (size?.wdth < 960) {
       return 100;
     }
     return 200;
-  }, [window]);
+  }, [size]);
 
   return (
     <div

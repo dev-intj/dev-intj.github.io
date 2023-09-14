@@ -73,7 +73,7 @@ const SummarySection = () => {
               </h3>
             </Border>
           </div>
-          <div className="hidden md:flex col-span-2 row-span-2 col-start-3 row-start-5 mt-4">
+          <div className="hidden md:grid col-span-2 row-span-2 col-start-3 row-start-5 mt-4">
             <div className="text-center border-b-2 w-fit m-auto">
               <h1 className="my-2 text-xl body-font font-typold">
                 Skillset
