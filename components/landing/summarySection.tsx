@@ -23,13 +23,13 @@ const SummarySection = () => {
     <div className="w-screen h-screen relative">
       <div className="flex justify-center h-full items-center pb-16 lg:mb-0">
         <div className="flex flex-col lg:grid grid-cols-8 grid-rows-7 gap-8 lg:gap-16">
-          <div className="hidden lg:block col-span-2 row-span-4 col-start-3">
+          <div className="hidden md:block col-span-2 row-span-4 col-start-3">
             <Border
               customClassName={"h-full w-full"}
             >
               <Image
                 src="/img/cat2.png"
-                className="rounded-full border-white border-2"
+                className="rounded-full border-white border-2 m-auto"
                 width={500}
                 height={500}
                 alt="Picture of the author"
