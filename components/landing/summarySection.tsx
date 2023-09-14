@@ -112,7 +112,7 @@ const SummarySection = () => {
             </Border>
           </div>
           <div className="lg:col-span-8 lg:row-span-4">
-            <div className="flex flex-row justify-center gap-4 lg:gap-72 h-full items-center flex-wrap">
+            <div className="flex flex-row justify-center gap-4 gap-24 lg:gap-72 h-full items-center flex-wrap">
               <button className="text-2xl">
                 <Email />
               </button>

@@ -12,7 +12,7 @@ const HeaderSection = () => {
               textColor="white"
             />
             <h1
-              className="text-[4rem] lg:text-[18rem] body-font font-moki leading-none pl-0 ml-0 lg:-ml-[2rem] text-left"
+              className="text-[4rem] md:text-[12rem] lg:text-[18rem] body-font font-moki leading-none pl-0 ml-0 lg:-ml-[2rem] text-left"
               style={{
                 lineHeight: 0.86,
               }}
@@ -21,10 +21,10 @@ const HeaderSection = () => {
             </h1>
           </div>
 
-          <h1 className="text-[5rem] lg:text-[20rem] body-font font-asher leading-none tracking-widest pl-0 ml-0 lg:-ml-[1rem] text-left">
+          <h1 className="text-[5rem] md:text-[14] lg:text-[20rem] body-font font-asher leading-none tracking-widest pl-0 ml-0 lg:-ml-[1rem] text-left">
             FOLIO
           </h1>
-          <h3 className="text-[2rem] lg:text-[6rem] body-font font-moki pt-5 leading-none gap-4 flex pl-0 ml-0 lg:-ml-[2rem] text-left">
+          <h3 className="text-[2rem] md:text-[4rem] lg:text-[6rem] body-font font-moki pt-5 leading-none gap-4 flex pl-0 ml-0 lg:-ml-[2rem] text-left">
             FRONT END <br /> ENGINEER
           </h3>
         </div>

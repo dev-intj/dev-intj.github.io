@@ -151,13 +151,13 @@ const ExperienceCompMobi = () => {
   //   <div className="h-full 2xl:h-[90%] shadow-2xl">
 
   <div className="slide">
-    <div className="w-screen h-screen relative bg-green-400"></div>
+    <div className="w-screen h-screen relative"></div>
   </div>;
 
   return experiencesDat.map(
     (experience, index) => (
       <div className="slide">
-        <div className="w-screen h-screen relative bg-green-400">
+        <div className="w-screen h-screen relative">
           <div className="h-full bg-[#DCDBD9] p-16 lg:p-8 text-black pb-24">
             <h1 className="py-2 md:py-6 text-center text-2xl border-b border-white font-bold">
               EXPERIENCE
@@ -180,14 +180,14 @@ const ExperienceSection = () => {
     <>
       <div className="block md:hidden">
         <div className="slide">
-          <div className="w-screen h-screen relative bg-red-400">
+          <div className="w-screen h-screen relative">
             <EducationComp />
           </div>
         </div>
         <ExperienceCompMobi />
       </div>
       <div className="hidden md:block">
-        <div className="w-screen h-screen relative bg-red-400">
+        <div className="w-screen h-screen relative">
           <div className="w-screen h-screen relative">
             <div className="flex flex-row items-center justify-center h-full text-black">
               <EducationComp />
