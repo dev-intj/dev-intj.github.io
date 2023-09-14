@@ -9,7 +9,10 @@ const CircleTextPanning = ({
   extraMainClasses,
 }: any) => {
   const num = useMemo(() => {
-    if (window.innerWidth < 960) {
+    if (
+      typeof window !== "undefined" &&
+      window?.innerWidth < 960
+    ) {
       return 100;
     }
     return 200;
