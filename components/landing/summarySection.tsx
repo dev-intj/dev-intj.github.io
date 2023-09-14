@@ -21,9 +21,9 @@ const Border = ({
 const SummarySection = () => {
   return (
     <div className="w-screen h-screen relative">
-      <div className="flex justify-center h-full items-center pb-16 md:mb-0">
-        <div className="flex flex-col md:grid grid-cols-8 grid-rows-7 gap-8 md:gap-16">
-          <div className="hidden md:block col-span-2 row-span-4 col-start-3">
+      <div className="flex justify-center h-full items-center pb-16 lg:mb-0">
+        <div className="flex flex-col lg:grid grid-cols-8 grid-rows-7 gap-8 lg:gap-16">
+          <div className="hidden lg:block col-span-2 row-span-4 col-start-3">
             <Border
               customClassName={"h-full w-full"}
             >
@@ -36,7 +36,7 @@ const SummarySection = () => {
               />
             </Border>
           </div>
-          <div className="flex md:block md:col-span-2 md:row-span-2 md:col-start-5 md:row-start-2">
+          <div className="flex lg:block lg:col-span-2 lg:row-span-2 lg:col-start-5 lg:row-start-2">
             <Border customClassName="">
               <h1 className="text-2xl body-font font-asher my-4">
                 Hello World!!
@@ -50,7 +50,7 @@ const SummarySection = () => {
             </Border>
           </div>
           <div className="col-span-2 row-span-2 col-start-5 row-start-4">
-            <Border customClassName="md:ml-8">
+            <Border customClassName="lg:ml-8">
               <h3 className="body-font font-typold">
                 Ever since my first snippet of
                 code, I've always had a special
@@ -62,7 +62,7 @@ const SummarySection = () => {
             </Border>
           </div>
           <div className="col-span-2 row-span-2 col-start-5 row-start-6">
-            <Border customClassName="md:ml-16">
+            <Border customClassName="lg:ml-16">
               <h3 className="body-font font-typold">
                 Over the last 2.5+ years, I've had
                 the opportunity to develop a
@@ -73,7 +73,7 @@ const SummarySection = () => {
               </h3>
             </Border>
           </div>
-          <div className="hidden md:grid col-span-2 row-span-2 col-start-3 row-start-5 mt-4">
+          <div className="hidden lg:grid col-span-2 row-span-2 col-start-3 row-start-5 mt-4">
             <div className="text-center border-b-2 w-fit m-auto">
               <h1 className="my-2 text-xl body-font font-typold">
                 Skillset
@@ -111,8 +111,8 @@ const SummarySection = () => {
               />
             </Border>
           </div>
-          <div className="md:col-span-8 md:row-span-4">
-            <div className="flex flex-row justify-center gap-4 md:gap-72 h-full items-center flex-wrap">
+          <div className="lg:col-span-8 lg:row-span-4">
+            <div className="flex flex-row justify-center gap-4 lg:gap-72 h-full items-center flex-wrap">
               <button className="text-2xl">
                 <Email />
               </button>
@@ -126,7 +126,7 @@ const SummarySection = () => {
           </div>
         </div>
       </div>
-      <div className="icon-scroll hidden md:block" />
+      <div className="icon-scroll hidden lg:block" />
     </div>
   );
 };

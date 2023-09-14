@@ -40,7 +40,7 @@ const PoliceTapeSection = () => {
       <PoliceTape d={d} y={y * 9} />
       <PoliceTape d={d} y={y * 10} />
 
-      <div className="absolute bg-white p-12 md:p-8 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center">
+      <div className="absolute bg-white p-12 lg:p-8 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center">
         <h1 className="text-4xl body-font font-typold text-black">
           Project Section
         </h1>
