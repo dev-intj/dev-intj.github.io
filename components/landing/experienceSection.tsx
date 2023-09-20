@@ -188,7 +188,7 @@ const ExperienceSection = () => {
       </div>
       <div className="hidden md:block">
         <div className="w-screen h-screen relative">
-          <div className="w-screen h-screen relative">
+          <div className="h-full w-full relative">
             <div className="flex flex-row items-center justify-center h-full text-black">
               <EducationComp />
               <ExperienceComp />
