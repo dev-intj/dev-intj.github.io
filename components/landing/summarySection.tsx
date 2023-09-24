@@ -2,6 +2,7 @@ import {
   Linkedin,
   Instagram,
   Email,
+  Resume,
 } from "../utils/icons";
 import Image from "next/image";
 
@@ -17,6 +18,14 @@ const Border = ({
     </div>
   );
 };
+
+function downloadFile() {
+  var link = document.createElement("a");
+  document.body.appendChild(link);
+  link.href = "resume.pdf";
+  link.download = "";
+  link.click();
+}
 
 const SummarySection = () => {
   return (
@@ -112,15 +121,42 @@ const SummarySection = () => {
             </Border>
           </div>
           <div className="lg:col-span-8 lg:row-span-4">
-            <div className="flex flex-row justify-center gap-4 gap-24 lg:gap-72 h-full items-center flex-wrap">
-              <button className="text-2xl">
+            <div className="flex flex-row justify-center gap-24 lg:gap-72 h-full items-center flex-wrap">
+              <button
+                className="text-2xl"
+                onClick={() =>
+                  window.open(
+                    "mailto:demataschristiano@gmail.com"
+                  )
+                }
+              >
                 <Email />
               </button>
-              <button className="text-2xl">
+              <button
+                className="text-2xl"
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/christos-dematas-a50452169/"
+                  )
+                }
+              >
                 <Linkedin />
               </button>
-              <button className="text-2xl">
+              <button
+                className="text-2xl"
+                onClick={() =>
+                  window.open(
+                    "https://www.instagram.com/dev_intj/"
+                  )
+                }
+              >
                 <Instagram />
+              </button>
+              <button
+                className="text-2xl"
+                onClick={() => downloadFile()}
+              >
+                <Resume />
               </button>
             </div>
           </div>
