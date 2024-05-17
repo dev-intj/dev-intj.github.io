@@ -2,8 +2,8 @@ import CircleTextPanning from "../utils/circleTextPanning";
 
 const HeaderSection = () => {
   return (
-    <div className="w-screen h-screen relative">
-      <div className="relative flex justify-center items-center h-full p-8 lg:p-0">
+    <>
+      <div className="relative flex justify-center items-center h-full p-8 lg:p-0 m-auto">
         <div className="text-left relative">
           <div className="relative h-full">
             <CircleTextPanning
@@ -29,9 +29,7 @@ const HeaderSection = () => {
           </h3>
         </div>
       </div>
-
-      <div className="icon-scroll hidden lg:block" />
-    </div>
+    </>
   );
 };
 

@@ -5,40 +5,39 @@ import ExperienceSection from "@/components/landing/experienceSection";
 import PoliceTapeSection from "@/components/landing/policeTape";
 import ProjectsSection from "@/components/landing/projectsSection";
 
-import ReactFullpage from "@fullpage/react-fullpage";
-
-const Fullpage = () => {
+const PageWrapper = ({
+  extraClasses = "",
+  children,
+}: any) => {
   return (
-    <ReactFullpage
-      //fullpage options
-      licenseKey={"YOUR_KEY_HERE"}
-      scrollingSpeed={1000} /* Options here */
-      parallax={false}
-      navigation={true}
-      credits={{ enabled: false }}
-      render={({ state, fullpageApi }) => {
-        return (
-          <ReactFullpage.Wrapper>
-            <div className="section">
-              <HeaderSection />
-            </div>
-            <div className="section">
-              <SummarySection />
-            </div>
-            <div className="section">
-              <ExperienceSection />
-            </div>
-            <div className="section">
-              <PoliceTapeSection />
-            </div>
-            <ProjectsSection />
-          </ReactFullpage.Wrapper>
-        );
-      }}
-    />
+    <div
+      className={`w-screen h-screen relative ${extraClasses}`}
+    >
+      {children}
+    </div>
   );
 };
 
 export default function Home() {
-  return <Fullpage />;
+  return (
+    <div className="flex flex-col overflow-x-hidden">
+      <PageWrapper>
+        <HeaderSection />
+        <div className="icon-scroll hidden lg:block" />
+      </PageWrapper>
+      <PageWrapper>
+        <SummarySection />
+        <div className="icon-scroll hidden lg:block" />
+      </PageWrapper>
+      <PageWrapper extraClasses="hidden md:block">
+        <ExperienceSection />
+        <div className="icon-scroll hidden lg:block" />
+      </PageWrapper>
+      <PageWrapper>
+        <PoliceTapeSection />
+        <div className="icon-scroll hidden lg:block" />
+      </PageWrapper>
+      <ProjectsSection />
+    </div>
+  );
 }

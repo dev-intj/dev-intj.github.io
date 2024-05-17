@@ -1,7 +1,7 @@
 export const Linkedin = () => {
   return (
     <svg
-      className="h-12 w-12 text-blue-500"
+      className="h-6 w-6 md:h-12 md:w-12 text-blue-500"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -19,7 +19,7 @@ export const Linkedin = () => {
 export const Instagram = () => {
   return (
     <svg
-      className="h-12 w-12 text-white"
+      className="h-6 w-6 md:h-12 md:w-12 text-white"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -49,7 +49,7 @@ export const Instagram = () => {
 export const Email = () => {
   return (
     <svg
-      className="h-12 w-12 text-white"
+      className="h-6 w-6 md:h-12 md:w-12 text-white"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -66,7 +66,7 @@ export const Email = () => {
 export const Resume = () => {
   return (
     <svg
-      className="h-12 w-12 text-white"
+      className="h-6 w-6 md:h-12 md:w-12 text-white"
       fill="none"
       viewBox="0 0 24 24"
       stroke="currentColor"

@@ -4,7 +4,7 @@ const PoliceTape = ({ d, y }: any) => {
     "--y": y,
   } as React.CSSProperties;
 
-  const phrase = `Projects section do not cross - Projects section do not cross - Projects section do not cross `;
+  const phrase = `Projects section do not cross`;
 
   return (
     <div
@@ -23,7 +23,7 @@ const PoliceTape = ({ d, y }: any) => {
 
 const PoliceTapeSection = () => {
   const y = 100;
-  const d = 45;
+  const d = 20;
 
   return (
     <section className="projects-tape relative">
@@ -55,8 +55,6 @@ const PoliceTapeSection = () => {
           (it still needs work)
         </h4>
       </div>
-
-      {/* <div className="icon-scroll" /> */}
     </section>
   );
 };
