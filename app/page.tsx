@@ -33,10 +33,6 @@ export default function Home() {
         <ExperienceSection />
         <div className="icon-scroll hidden lg:block" />
       </PageWrapper>
-      <PageWrapper>
-        <PoliceTapeSection />
-        <div className="icon-scroll hidden lg:block" />
-      </PageWrapper>
       <ProjectsSection />
     </div>
   );
