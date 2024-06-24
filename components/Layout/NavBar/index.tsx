@@ -24,7 +24,7 @@ const NavBar = ({ handleScroll }: any) => {
     <div className="pt-2 flex flex-row items-center justify-between sticky dark:text-white top-0 z-10">
       <h1
         onClick={() => router.push("/")}
-        className="font-medium cursor-pointer m-0 my-auto"
+        className="font-medium cursor-pointer my-2"
       >
         Christos.
       </h1>
