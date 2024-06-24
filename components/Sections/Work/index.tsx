@@ -11,6 +11,7 @@ const WorkSection = ({ ref }: any) => {
           subTitle="Using Atomic design principles + reactJS to make skroutz"
           sourceCode="https://github.com/dev-intj/skroutz-in-react"
         />
+
         <WorkCard
           href="https://github.com/dev-intj/react-render-wave"
           imgSrc={

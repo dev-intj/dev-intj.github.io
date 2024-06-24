@@ -12,8 +12,9 @@ const AssignmentsSection = ({ ref }: any) => {
           subTitle="Created a website based on Figma using OpenWeather API for REST"
           sourceCode=""
         />
+
         <WorkCard
-          href="https://github.com/dev-intj/s-front-end-assignment"
+          href="https://dev-intj.github.io/s-front-end-assignment/"
           imgSrc={
             "/images/TechnicalAssignments/sleed1.png"
           }
@@ -21,14 +22,15 @@ const AssignmentsSection = ({ ref }: any) => {
           subTitle="Created a website based on Figma, that sends a contact form & saves previous form in local storage"
           sourceCode="https://github.com/dev-intj/s-front-end-assignment"
         />
+
         <WorkCard
-          href="https://github.com/dev-intj/s-front-end-assignment-2"
+          href="https://s-front-end-assignment-2-json-posts.vercel.app"
           imgSrc={
             "/images/TechnicalAssignments/sleed2.png"
           }
           title="Front-End Software Engineer Assignment for Sleed #2"
           subTitle="Created a website based on Figma using {JSON} Placeholder API for REST"
-          sourceCode="https://github.com/dev-intj/s-front-end-assignment-2"
+          sourceCode="https://github.com/dev-intj/s-front-end-assignment-2-json-posts"
         />
       </div>
     </div>
