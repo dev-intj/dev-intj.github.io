@@ -50,7 +50,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="laptop:mt-20 mt-10 h-[70vh] laptop:h-screen flex flex-col">
+    <div className="laptop:mt-20 mt-10 h-screen flex flex-col relative">
       <div className="mt-5">
         <h1
           ref={textOne}
@@ -76,11 +76,11 @@ const Hero = () => {
         >
           based in Athens, Greece.
         </h1>
+
+        <Socials />
       </div>
 
-      <Socials className="mt-2 laptop:mt-5" />
-
-      <div className="flex flex-row h-full laptop:h-auto">
+      <div className="flex flex-row laptop:h-auto">
         <div className="w-full mt-auto mb-4">
           <h1
             className="text-2xl laptop:text-6xl up-down leading-relaxed laptop:leading-relaxed"
