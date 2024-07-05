@@ -5,12 +5,12 @@ const AssignmentsSection = ({ ref }: any) => {
     <div className="text-center flex flex-col">
       <div className="grid grid-cols-1 laptop:grid-cols-2 w-full laptop:gap-12">
         <WorkCard
+          href="https://full-stack-bd-weatherable-christos-dematas-wkmf.vercel.app"
           imgSrc={
             "/images/TechnicalAssignments/workable.png"
           }
           title="FullStack Software Engineer Assignment For Workable"
           subTitle="Created a website based on Figma using OpenWeather API for REST"
-          sourceCode=""
         />
 
         <WorkCard
